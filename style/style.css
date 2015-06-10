@@ -533,9 +533,6 @@ h6.box-header:after
 {
 	color: tan;
 }
-.sf-menu li:hover  {
-    text-decoration: underline;
-}
 nav ul.sf-menu li a:hover  {
     transition-duration: .5s;
 }
@@ -617,6 +614,7 @@ body .header-container .menu-container .sf-menu>li:first-child a
 .menu-container .sf-menu li:hover ul li.sfHover>a
 {
 	color: darkGreen;
+    background-color: lightGray;
 }
 ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul,
 ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul

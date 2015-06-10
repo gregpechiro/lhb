@@ -1,4 +1,4 @@
-
+@import url('http://fonts.googleapis.com/css?family=Marck+Script');
 /* --- general --- */
 .clearfix:after
 {
@@ -409,7 +409,6 @@ h6.box-header:after
 	margin-left: auto;
 	margin-right: auto;
 }
-@import url('http://fonts.googleapis.com/css?family=Marck+Script');
 .header .logo
 {
 	width: 370px;

@@ -968,6 +968,17 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 }
+/*.features-list li:hover:before {
+    background-color: darkGreen;
+    color: white;
+    border-color: white;
+    transition: all .5s;
+}
+a.list-icon:hover,
+a.list-icon h4:hover {
+    text-decoration: none;
+    color: blue;
+}*/
 .features-list.big li:before
 {
 	clear: both;
@@ -1185,18 +1196,13 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	font-size: 48px;
 	color: darkGreen;
 	background: #FFF;
-	border: 1px solid #FFF;
-	padding: 19px;
+	border: 8px solid #FFF;
+	padding: 12px;
 	margin-right: 30px;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 }
-/*.contact-details-list li:hover:before {
-    background-color: darkGreen;
-    color: white;
-    transition: all 1s ease-out;
-}*/
 .contact-details-list li p
 {
 	font-family: 'Raleway';
@@ -1208,6 +1214,12 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 {
 	color: #FFF;
 }
+.contact-details-list li:hover:before {
+    transition: all .5s ease-out;
+    background-color: darkGreen;
+    color: white;
+}
+
 
 /* --- slider control --- */
 .slider-control

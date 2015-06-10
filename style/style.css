@@ -1203,6 +1203,11 @@ li.sl-small-helmet:hover:before {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 }
+/*.contact-details-list li:hover:before {
+    background-color: darkGreen;
+    color: white;
+    transition: all 1s ease-out;
+}*/
 .contact-details-list li p
 {
 	font-family: 'Raleway';
@@ -1214,6 +1219,32 @@ li.sl-small-helmet:hover:before {
 {
 	color: #FFF;
 }
+
+/* Effect 1 */
+.contact-details-list li:before {
+	background: rgba(255,255,255,0.1);
+	-webkit-transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s;
+	transition: background 0.2s, color 0.2s;
+}
+
+.contact-details-list li:hover:before {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	/*box-shadow: 0 0 0 4px #fff;*/
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(1);
+	/*-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);*/
+	opacity: 0;
+}
+
+
+
 /* --- slider control --- */
 .slider-control
 {

@@ -33,60 +33,35 @@
 		<div class="site-container">
 			<div id="navbar"></div>
 			<div class="theme-page padding-bottom-66">
-				<div class="row gray full-width page-header vertical-align-table">
-					<div class="row full-width padding-top-bottom-50 vertical-align-cell">
-						<div class="row">
-							<div class="page-header-left">
-								<h1>CONTACT US</h1>
-							</div>
-							<div class="page-header-right">
-								<div class="bread-crumb-container">
-									<label>You Are Here:</label>
-									<ul class="bread-crumb">
-										<li>
-											<a title="HOME" href="index.html">
-												HOME
-											</a>
-										</li>
-										<li class="separator">
-											&#47;
-										</li>
-										<li>
-											CONTACT US
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+				<div class="clearfix">
+					<div class="row full-width">
+						<div class="contact-map" id="map" data-scroll-wheel="0" data-draggable="0"></div>
 					</div>
-				</div>
-				<div class="row margin-top-70">
-					<div class="column column-1-3 re-smart-column">
-						<div class="re-smart-column-wrapper">
-							<h4 class="box-header">CONTACT DEATILS</h4>
-							<!-- <ul class="features-list page-margin-top clearfix">
+					<div class="row page-margin-top">
+						<div class="column column-1-3">
+							<ul class="features-list">
 								<li class="sl-small-location">
 									<p>1730 Columbia Ave<br>Lancaster, PA 17603</p>
 								</li>
+							</ul>
+						</div>
+						<div class="column column-1-3">
+							<ul class="features-list">
 								<li class="sl-small-phone">
 									<p>Phone:<br>(717) 394-6621</p>
 								</li>
-								<li class="sl-small-mail">
-									<p>E-mail:<br>renovate@mail.com</p>
-								</li>
-								<li class="sl-small-fax">
-									<p>Fax:<br>(717) 394-6621</p>
-								</li>
+							</ul>
+						</div>
+						<div class="column column-1-3">
+							<ul class="features-list">
 								<li class="sl-small-clock">
 									<p>Monday - Friday: 08.00 - 17.00<br>Saturday: 09.00 - 12.00</p>
 								</li>
-							</ul> -->
+							</ul>
 						</div>
 					</div>
-					<div class="column column-2-3">
-						<div class="contact-map" id="map"></div>
-						<h3 class="box-header page-margin-top">DROP US A LINE</h3>
-						<form class="contact-form page-margin-top" id="contact-form" method="post" action="contact_form/contact_form.php">
+					<div class="row page-margin-top">
+						<form class="contact-form" id="contact-form" method="post" action="contact_form/contact_form.php">
 							<div class="row">
 								<fieldset class="column column-1-2">
 									<input class="text-input" name="name" type="text" value="Your Name *" placeholder="Your Name *">
@@ -137,5 +112,6 @@
 		<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/odometer.min.js"></script>
+		<script type="text/javascript" src="js/navbar.js"></script>
 	</body>
 </html>

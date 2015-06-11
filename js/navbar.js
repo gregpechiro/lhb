@@ -1,11 +1,17 @@
 $(document).ready(function() {
     function setSelected() {
-        var items = $('ul.sf-menu li a');
+        var listItems = $('ul.sf-menu > li');
         var loc = window.location.href;
-        for (i in items) {
-            if (items[i].href === loc) {
-                var parent = $(items[i].parentElement);
-                parent.addClass('selected');
+
+        if (loc.indexOf('service') > -1) {
+            $('li#services').addClass('selected');
+        } else {
+            for (var i = 0; i < listItems.length; i++) {
+                var aLoc = listItems[i].children[0].href;
+                if (aLoc === loc) {
+                    var parent = $(listItems[i]);
+                    parent.addClass('selected');
+                }
             }
         }
     }

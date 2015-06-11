@@ -89,7 +89,7 @@
 	}
 	.sf-menu li a, .sf-menu li a:visited
 	{
-		padding: 12px 0 12px 16px;
+		/*padding: 12px 0 12px 16px;*/
 	}
 	.header-container.sticky.move .menu-container
 	{

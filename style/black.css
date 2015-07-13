@@ -46,9 +46,6 @@ body {
 .no-margin {
     margin-right: 0px;
 }
-.no-padding2 {
-    padding: 0px;
-}
 .no-padding {
     padding-right: 0;
 }
@@ -84,10 +81,10 @@ div.caption {
 #pageName {
     font-size: 25px;
 }
-.nav-home {
+/*.nav-home {
     font-size: 25px;
-    /*font-family: 'Marck Script';*/
-}
+    font-family: 'Marck Script';
+}*/
 .text-right {
     text-align: right;
 }

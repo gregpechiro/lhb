@@ -84,7 +84,7 @@
 
 			<?php include 'stubs/footer.php'; ?>
         </div>
-		
+
 		<script src="js/nav.js" charset="utf-8"></script>
 		<script src="js/quote.js" charset="utf-8"></script>
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>

@@ -1,12 +1,12 @@
 <div id="footer">
     <div class="footer-line"></div>
     <div class="row footer">
-        <div class="visible-lg-block col-lg-6">
+        <div class="col-xs-6">
             &copy; Lancaster Home Builders <br>
             Building For Your Future!<br>
             A Division of Nadu Construction, Inc.
         </div>
-        <div class="visible-lg-block col-lg-6 footer-contact row no-padding">
+        <div class="col-xs-6 footer-contact row no-padding">
             <a target="_blank" href="http://www.lancasterbuilders.org/">
                 <img class="bbb-logo" src="images/bia.png" alt="" />
             </a>
@@ -14,7 +14,7 @@
                 <img class="bbb-logo" src="images/bbb-logo.png" alt="" />
             </a>
         </div>
-        <div class="visible-md-block col-md-6">
+        <!-- <div class="visible-md-block col-md-6">
             Lancaster Home Builders <br>
             Building For Your Future! <br>
             A Division of Nadu Construction, Inc.
@@ -52,6 +52,6 @@
             <a href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/home-builders/nadu-construction-inc-in-lancaster-pa-70000487">
                 <img class="bbb-logo" src="images/bbb-logo.png" alt="" />
             </a>
-        </div>
+        </div> -->
     </div>
 </div>

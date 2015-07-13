@@ -1,9 +1,9 @@
 <div id="navbar" class="row no-margin">
     <!-- <h1  id="pageName" class="col-lg-3 logo text-center"></h1> -->
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-4">
          <img style="width: 250px" src="images/lhblogo.png" alt="" />
     </div>
-    <div class="col-lg-9 no-padding2">
+    <div class="col-lg-9 col-md-8 no-padding">
         <nav class="navbar navbar-default">
             <div class="">
                 <!-- Brand and toggle get grouped for better mobile display -->

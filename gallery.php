@@ -9,9 +9,9 @@
 		<meta name="keywords" content="Construction, Renovation" />
 		<meta name="description" content="Responsive Construction Renovation Template" />
 		<!--slider revolution-->
-		<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+		<!-- <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" /> -->
 		<!--style-->
-		<link href='//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+		<!-- <link href='//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style/reset.css">
 		<link rel="stylesheet" type="text/css" href="style/superfish.css">
 		<link rel="stylesheet" type="text/css" href="style/prettyPhoto.css">
@@ -20,14 +20,13 @@
 		<link rel="stylesheet" type="text/css" href="style/animations.css">
 		<link rel="stylesheet" type="text/css" href="style/responsive.css">
 		<link rel="stylesheet" type="text/css" href="style/odometer-theme-default.css">
-		<!--fonts-->
 		<link rel="stylesheet" type="text/css" href="fonts/streamline-small/styles.css">
 		<link rel="stylesheet" type="text/css" href="fonts/streamline-large/styles.css">
 		<link rel="stylesheet" type="text/css" href="fonts/template/styles.css">
-		<link rel="stylesheet" type="text/css" href="fonts/social/styles.css">
-		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="fonts/social/styles.css"> -->
+		<!-- <link rel="shortcut icon" href="images/favicon.ico">
 		<link rel="import" id="nav" href="stubs/nav.html">
-		<link rel="import" id="foot" href="stubs/footer.html">
+		<link rel="import" id="foot" href="stubs/footer.html"> -->
 	</head>
 	<body>
 		<div class="site-container">

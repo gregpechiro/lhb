@@ -75,8 +75,8 @@
 				var $container = $('.isotope').isotope({
 					itemSelector: '.item',
 					layoutMode: 'fitRows'
-				});
 				// bind filter button click
+				});
 				$('button.filter').click(function() {
 					var filterValue = $( this ).attr('data-filter');
 					$container.isotope({ filter: filterValue });

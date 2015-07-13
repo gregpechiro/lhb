@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>LHB | Services</title>
-		<meta name="description" content="Lancsaster Home Builders" />
+		<title>Services | Lancaster Home Builders PA Home Construction</title>
 		<?php include 'stubs/head.php'; ?>
 	</head>
 	<body class="">
@@ -13,7 +12,7 @@
 				<div class="col-lg-3">
 					<h1 class="center border-bottom">Why Choose Us</h1>
 					<p>
-						With over 60 years of experience and a real focus on customer satisfaction, you can rely on Lancaster Home Builders for your next project. We provide a professional building and renovation services with a real focus on customer satisfaction.
+						With over 60 years of experience and a real focus on customer satisfaction, you can rely on Lancaster Home Builders for your next project. We provide a professional construction and renovation services with a real focus on customer satisfaction.
 					</p>
 					<br>
 					<p><i class="fa fa-check"></i> Financial Responsibility to Our Clients</p>
@@ -85,11 +84,9 @@
 
 			<?php include 'stubs/footer.php'; ?>
         </div>
-
-		<script type="text/javascript">
-			<?php include 'js/nav.php'; ?>
-			<?php include 'js/random.php'; ?>
-		</script>
+		
+		<script src="js/nav.js" charset="utf-8"></script>
+		<script src="js/quote.js" charset="utf-8"></script>
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </body>

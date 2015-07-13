@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>LHB | About</title>
-		<meta name="description" content="Lancsaster Home Builders" />
+		<title>About | Lancaster Home Builders PA Home Construction</title>
 		<?php include 'stubs/head.php'; ?>
 	</head>
 	<body class="">
@@ -59,10 +58,8 @@
 			<?php include 'stubs/footer.php'; ?>
         </div>
 
-		<script type="text/javascript">
-			<?php include 'js/nav.php'; ?>
-			<?php include 'js/random.php'; ?>
-		</script>
+		<script src="js/nav.js" charset="utf-8"></script>
+		<script src="js/quote.js" charset="utf-8"></script>
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </body>

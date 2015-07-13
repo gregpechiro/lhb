@@ -78,7 +78,8 @@ div.caption {
 .text-underline {
     text-decoration: underline;
 }
-#pageName {
+#pageName,
+#pageName2 {
     font-size: 25px;
 }
 /*.nav-home {

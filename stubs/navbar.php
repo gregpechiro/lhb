@@ -1,9 +1,9 @@
 <div id="navbar" class="row no-margin">
     <!-- <h1  id="pageName" class="col-lg-3 logo text-center"></h1> -->
-    <div class="col-lg-3 col-md-4">
+    <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
          <img style="width: 250px" src="images/lhblogo.png" alt="" />
     </div>
-    <div class="col-lg-9 col-md-8 no-padding">
+    <div class=" col-lg-9 col-md-8 col-sm-12 col-xs-12 no-padding">
         <nav class="navbar navbar-default">
             <div class="">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -30,35 +30,14 @@
             </div><!-- /.container-fluid -->
         </nav>
         <div class="row">
-            <!-- large -->
-            <p class="visible-lg-block col-lg-1 text-right"><i class="fa fa-quote-left"></i></p>
-            <p class="visible-lg-block col-lg-10 text-center" id="randomQuote"></p>
-            <p class="visible-lg-block col-lg-1"><i class="fa fa-quote-right"></i></p>
-            <!-- med -->
-            <p class="visible-md-block col-md-1 text-right"><i class="fa fa-quote-left"></i></p>
-            <p class="visible-md-block col-md-10 text-center" id="randomQuote2"></p>
-            <p class="visible-md-block col-md-1"><i class="fa fa-quote-right"></i></p>
-            <!-- small -->
-            <p class="visible-sm-block col-sm-1 text-right"><i class="fa fa-quote-left"></i></p>
-            <p class="visible-sm-block col-sm-10 text-center" id="randomQuote3"></p>
-            <p class="visible-sm-block col-sm-1"><i class="fa fa-quote-right"></i></p>
-            <!-- extra small -->
-            <p class="visible-xs-block col-xs-1 text-right"><i class="fa fa-quote-left"></i></p>
-            <p class="visible-xs-block col-xs-10 text-center" id="randomQuote4"></p>
-            <p class="visible-xs-block col-xs-1"><i class="fa fa-quote-right"></i></p>
+            <p class=" col-xs-1 col-sm-1 col-md-1 col-lg-1 text-right"><i class="fa fa-quote-left"></i></p>
+            <p class=" col-xs-9 col-sm-10 col-md-10 col-lg-10 text-center" id="randomQuote"></p>
+            <p class=" col-xs-1 col-sm-1 col-md-1 col-lg-1"><i class="fa fa-quote-right"></i></p>
         </div>
-        <div class="visible-lg-block col-lg-offset-10">
-            --Satisfied Customer--
-        </div>
-        <div class="visible-md-block col-md-offset-10">
-            --Satisfied Customer--
-        </div>
-        <div class="visible-sm-block col-sm-offset-9">
-            --Satisfied Customer--
-        </div>
-        <div class="visible-xs-block col-xs-offset-8">
+        <div class="col-lg-offset-10 col-md-offset-10 col-sm-offset-9 col-xs-offset-6">
             --Satisfied Customer--
         </div>
     </div>
+
 </div>
 <div class="navbar-line"></div>

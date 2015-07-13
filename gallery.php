@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>LHB |  - Construction Renovation Template</title>
+		<title>Gallery | Lancaster Home Builders PA Home Construction</title>
 		<!--meta-->
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.2" />
 		<meta name="format-detection" content="telephone=no" />
-		<meta name="keywords" content="Construction, Renovation" />
-		<meta name="description" content="Responsive Construction Renovation Template"/>
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<?php include 'stubs/head.php'; ?>
 	</head>
 	<body>
 		<div class="container">
+			<?php include 'stubs/navbar.php'; ?>
 			<div class="row">
 
 				<?php
@@ -38,17 +35,19 @@
 
 				$conn->close();
 				?>
+				<div class="col-sm-12">
+					<button class="filter btn btn-primary" data-filter="*">show all</button>
 
-				<button class="filter" data-filter="*">show all</button>
-
-				<?php
-				if ($categories->num_rows > 0) {
-					while($category = $categories->fetch_assoc()) {
-						echo '<button class="filter" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
+					<?php
+					if ($categories->num_rows > 0) {
+						while($category = $categories->fetch_assoc()) {
+							echo '<button class="filter btn btn-primary" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
+						}
 					}
-				}
-				?>
-
+					?>
+				</div>
+			</div>
+			<div class="row">
 				<div class="isotope">
 
 					<?php
@@ -65,10 +64,13 @@
 
 				</div>
 			</div>
+			<?php include 'stubs/footer.php'; ?>
 		</div>
 		<script src="//code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.1/isotope.pkgd.min.js"></script>
+		<script src="js/nav.js" charset="utf-8"></script>
+		<script src="js/quote.js" charset="utf-8"></script>
 		<script type="text/javascript">
 			$( document ).ready( function() {
 				// init Isotope

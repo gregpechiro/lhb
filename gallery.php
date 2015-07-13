@@ -54,8 +54,8 @@
 					<?php
 					if ($images->num_rows > 0) {
 						while($image = $images->fetch_assoc()) {
-							echo '<div class="col-lg-3 ' . $image["category"] . '">
-									<a href="' . $image["source"] . '" class="" title="' . $image["description"] . '">
+							echo '<div class="col-lg-3 item ' . $image["category"] . '">
+									<a href="edit.php?id=' . $image["id"] . '">
 										<img class="img-responsive" src="' . $image["source"] . '" alt="img">
 									</a>
 								</div>';
@@ -72,8 +72,10 @@
 		<script type="text/javascript">
 			$( document ).ready( function() {
 				// init Isotope
-				var $container = $('.isotope').isotope();
-
+				var $container = $('.isotope').isotope({
+					itemSelector: '.item',
+					layoutMode: 'fitRows'
+				});
 				// bind filter button click
 				$('button.filter').click(function() {
 					var filterValue = $( this ).attr('data-filter');

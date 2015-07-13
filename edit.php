@@ -56,30 +56,56 @@
                 ?>
             </div>
 			<div class="row">
-				<ul class="tabs-navigation small gray isotope-filters margin-top-70">
-					<li><a class="selected" href="#filter-*" title="Renovation">All Projects</a></li>
-					<?php
-					if ($categories->num_rows > 0) {
-						while($category = $categories->fetch_assoc()) {
-							echo '<li><a href="#filter-' . $category["category"] . '" title="Renovation">' . ucfirst($category["category"]) . '</a></li>';
-						}
+				<?php
+				ini_set('display_errors',1);
+				error_reporting(E_ALL);
+				// server variables
+				$server = "localhost";
+				$user = "root";
+				$pass = "root";
+				$db_name = "php_test";
+				// connect to server
+				$conn = new mysqli($server, $user, $pass, $db_name);
+
+				// check connection
+				if ($conn->connect_error) {
+					die("connection failed: " . $conn->connect_error);
+				}
+
+				$imageQuery = "SELECT * FROM images";
+				$images = $conn->query($imageQuery);
+
+				$categoryQuery = "SELECT DISTINCT category  FROM images";
+				$categories = $conn->query($categoryQuery);
+
+				$conn->close();
+				?>
+
+				<button class="filter" data-filter="*">show all</button>
+
+				<?php
+				if ($categories->num_rows > 0) {
+					while($category = $categories->fetch_assoc()) {
+						echo '<button class="filter" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
 					}
-					?>
-				</ul>
-				<ul class="projects-list isotope">
+				}
+				?>
+
+				<div class="isotope">
 
 					<?php
 					if ($images->num_rows > 0) {
 						while($image = $images->fetch_assoc()) {
-							echo '<li class="' . $image["category"] . '">
-									<a href="' . $image["source"] . '" class="prettyPhoto re-preload" title="' . $image["description"] . '<a href=\'edit.php?id=' . $image["id"] . '\'>EDIT</a>">
-										<img src="' . $image["source"] . '" alt="img">
+							echo '<div class="col-lg-3 item ' . $image["category"] . '">
+									<a href="edit.php?id=' . $image["id"] . '">
+										<img class="img-responsive" src="' . $image["source"] . '" alt="img">
 									</a>
-								</li>';
+								</div>';
 						}
 					}
 					?>
-				</ul>
+
+				</div>
 			</div>
 		</div>
 		<script src="//code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
@@ -88,8 +114,10 @@
 		<script type="text/javascript">
 			$( document ).ready( function() {
 				// init Isotope
-				var $container = $('.isotope').isotope();
-
+				var $container = $('.isotope').isotope({
+					itemSelector: '.item',
+					layoutMode: 'fitRows'
+				});
 				// bind filter button click
 				$('button.filter').click(function() {
 					var filterValue = $( this ).attr('data-filter');

@@ -2,12 +2,10 @@
 <html>
 	<head>
 		<title>LHB |  - Construction Renovation Template</title>
-		<!--meta-->
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.2" />
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<?php include 'stubs/head.php'; ?>
 	</head>
 	<body>
+		<br><br>
 		<div class="container">
             <div class="row">
                 <?php
@@ -39,22 +37,21 @@
                 $conn->close();
 
                 echo
-    			'<form action="save.php" method="post" enctype="multipart/form-data">
-    				<p>
-    					Description:
-    					<input type="text" name="description" id="description" value="' . $img["description"] . '">
-    				</p>
-    				<p>
-    					Category:
-    					<input type="text" name="category" id="category" value="' . $img["category"] . '">
-    				</p>
-            		<p>
-                        <input type="hidden" name="id" id="id" value="' . $img["id"] . '">
-                		<input type="submit" name="submit" value="Save">
-            		</p>
+    			'<form action="save.php" method="post" class="form-inline" enctype="multipart/form-data">
+					<div class="form-group">
+						<label>Description: </label>
+						<input class="form-control" type="text" name="description" id="description" value="' . $img["description"] . '">
+					</div>
+					<div class="form-group">
+						<label>Category:</label>
+						<input type="text" name="category" class="form-control" id="category" value="' . $img["category"] . '">
+					</div>
+                    <input type="hidden" name="id" id="id" value="' . $img["id"] . '">
+					<button class="btn btn-primary">Save</buttton>
             	</form>';
                 ?>
             </div>
+			<br><br>
 			<div class="row">
 				<?php
 				ini_set('display_errors',1);
@@ -108,6 +105,37 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="modal fade" id="login">
+			<div class="modal-dialog">
+    			<div class="modal-content">
+    				<div class="modal-header">
+        				<h4 class="modal-title">Login</h4>
+    				</div>
+    				<div class="modal-body clearfix">
+						<div id="error" class="hide text-center" style="color:red;">
+							*Incorrect username or password.
+						</div>
+						<br>
+						<div class="form-group row">
+							<label class="col-xs-2 control-label">Username</label>
+							<div class="col-xs-10">
+								<input id="username" type="text" name="username" class="form-control">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-xs-2">Password</label>
+							<div class="col-xs-10">
+								<input id="password" type="password" name="password" class="form-control">
+							</div>
+						</div>
+						<button class="col-xs-6 btn btn-primary" id="login">Login</button>
+						<a href="/home.php" class="btn btn-default col-xs-6">Cancel</a>
+    				</div>
+    			</div>
+			</div>
+		</div>
+
 		<script src="//code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.1/isotope.pkgd.min.js"></script>
@@ -122,6 +150,22 @@
 				$('button.filter').click(function() {
 					var filterValue = $( this ).attr('data-filter');
 					$container.isotope({ filter: filterValue });
+				});
+
+				$('#login').modal({
+					keyboard: false,
+					backdrop: 'static'
+				});
+
+				$('button#login').click(function() {
+					$('#error').addClass('hide')
+					var username = $('input#username').val();
+					var password = $('input#password').val();
+					if (username === 'admin' && password === 'admin') {
+						$('#login').modal('hide');
+					} else {
+						$('#error').removeClass('hide');
+					}
 				});
 			});
 		</script>

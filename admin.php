@@ -8,20 +8,22 @@
 		<br><br>
 		<div class="container">
 			<div class="row">
-				<form action="upload.php" method="post" class="form-inline" enctype="multipart/form-data">
-					<div class="form-group">
-	    				<input type="file" name="ourFile" id="ourFile">
-					</div>
-					<div class="form-group">
-						<label>Description: </label>
-						<input class="form-control" type="text" name="description" id="description">
-					</div>
-					<div class="form-group">
-						<label>Category:</label>
-						<input type="text" class="form-control" name="category" id="category">
-					</div>
-	    			<button class="btn btn-primary">Upload</buttton>
-				</form>
+				<div class="col-lg-12">
+					<form action="upload.php" method="post" class="form-inline" enctype="multipart/form-data">
+						<div class="form-group">
+	    					<input type="file" name="ourFile" id="ourFile">
+						</div>
+						<div class="form-group">
+							<label>Description: </label>
+							<input class="form-control" type="text" name="description" id="description">
+						</div>
+						<div class="form-group">
+							<label>Category:</label>
+							<input type="text" class="form-control" name="category" id="category">
+						</div>
+	    				<button class="btn btn-primary">Upload</buttton>
+						</form>
+				</div>
 			</div>
 			<br><br>
 			<div class="row">
@@ -50,16 +52,21 @@
 				$conn->close();
 				?>
 
-				<button class="filter" data-filter="*">show all</button>
-
-				<?php
-				if ($categories->num_rows > 0) {
-					while($category = $categories->fetch_assoc()) {
-						echo '<button class="filter" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
-					}
-				}
-				?>
-
+				<div class="col-sm-12">
+					<div class="btn-group" role="group">
+						<button class="filter btn btn-primary active" role="group" data-filter="*">Show All</button>
+						<?php
+						if ($categories->num_rows > 0) {
+							while($category = $categories->fetch_assoc()) {
+								echo '<button class="filter btn btn-primary" role="group" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
+							}
+						}
+						?>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
 				<div class="isotope">
 
 					<?php
@@ -78,7 +85,7 @@
 			</div>
 		</div>
 
-		<div class="modal fade" id="login">
+		<div class="modal text-black fade" id="login">
 			<div class="modal-dialog">
     			<div class="modal-content">
     				<div class="modal-header">
@@ -119,7 +126,9 @@
 				});
 
 				$('button.filter').click(function() {
-					var filterValue = $( this ).attr('data-filter');
+					$('button.filter').removeClass('active');
+					$(this).addClass('active');
+					var filterValue = $(this).attr('data-filter');
 					$container.isotope({ filter: filterValue });
 				});
 

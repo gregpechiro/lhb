@@ -8,48 +8,50 @@
 		<br><br>
 		<div class="container">
             <div class="row">
-                <?php
-                ini_set('display_errors',1);
-                error_reporting(E_ALL);
-                // server variables
-                $server = "localhost";
-                $user = "root";
-                $pass = "root";
-                $db_name = "php_test";
-                // connect to server
-                $conn = new mysqli($server, $user, $pass, $db_name);
+				<div class="col-lg-12">
+                	<?php
+                	ini_set('display_errors',1);
+                	error_reporting(E_ALL);
+                	// server variables
+                	$server = "localhost";
+                	$user = "root";
+                	$pass = "root";
+                	$db_name = "php_test";
+                	// connect to server
+                	$conn = new mysqli($server, $user, $pass, $db_name);
 
-                // check connection
-                if ($conn->connect_error) {
-                    die("connection failed: " . $conn->connect_error);
-                }
+                	// check connection
+                	if ($conn->connect_error) {
+                    	die("connection failed: " . $conn->connect_error);
+                	}
 
-                $imagesQuery = "SELECT * FROM images";
-                $images = $conn->query($imagesQuery);
+                	$imagesQuery = "SELECT * FROM images";
+                	$images = $conn->query($imagesQuery);
 
-                $categoryQuery = "SELECT DISTINCT category  FROM images";
-                $categories = $conn->query($categoryQuery);
+                	$categoryQuery = "SELECT DISTINCT category  FROM images";
+                	$categories = $conn->query($categoryQuery);
 
-                $imgQuery = "SELECT * FROM images WHERE id=" . $_GET["id"];
-                $imgResult = $conn->query($imgQuery);
-                $img = $imgResult->fetch_assoc();
+                	$imgQuery = "SELECT * FROM images WHERE id=" . $_GET["id"];
+                	$imgResult = $conn->query($imgQuery);
+                	$img = $imgResult->fetch_assoc();
 
-                $conn->close();
+                	$conn->close();
 
-                echo
-    			'<form action="save.php" method="post" class="form-inline" enctype="multipart/form-data">
-					<div class="form-group">
-						<label>Description: </label>
-						<input class="form-control" type="text" name="description" id="description" value="' . $img["description"] . '">
-					</div>
-					<div class="form-group">
-						<label>Category:</label>
-						<input type="text" name="category" class="form-control" id="category" value="' . $img["category"] . '">
-					</div>
-                    <input type="hidden" name="id" id="id" value="' . $img["id"] . '">
-					<button class="btn btn-primary">Save</buttton>
-            	</form>';
-                ?>
+                	echo
+    				'<form action="save.php" method="post" class="form-inline" enctype="multipart/form-data">
+						<div class="form-group">
+							<label>Description: </label>
+							<input class="form-control" type="text" name="description" id="description" value="' . $img["description"] . '">
+							</div>
+							<div class="form-group">
+							<label>Category:</label>
+							<input type="text" name="category" class="form-control" id="category" value="' . $img["category"] . '">
+							</div>
+                    	<input type="hidden" name="id" id="id" value="' . $img["id"] . '">
+						<button class="btn btn-primary">Save</buttton>
+            		</form>';
+                	?>
+				</div>
             </div>
 			<br><br>
 			<div class="row">
@@ -77,17 +79,21 @@
 
 				$conn->close();
 				?>
-
-				<button class="filter" data-filter="*">show all</button>
-
-				<?php
-				if ($categories->num_rows > 0) {
-					while($category = $categories->fetch_assoc()) {
-						echo '<button class="filter" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
-					}
-				}
-				?>
-
+				<div class="col-sm-12">
+					<div class="btn-group" role="group">
+						<button class="filter btn btn-primary active" role="group" data-filter="*">Show All</button>
+						<?php
+						if ($categories->num_rows > 0) {
+							while($category = $categories->fetch_assoc()) {
+								echo '<button class="filter btn btn-primary" role="group" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
+							}
+						}
+						?>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
 				<div class="isotope">
 
 					<?php
@@ -106,7 +112,7 @@
 			</div>
 		</div>
 
-		<div class="modal fade" id="login">
+		<div class="modal text-black fade" id="login">
 			<div class="modal-dialog">
     			<div class="modal-content">
     				<div class="modal-header">
@@ -117,20 +123,22 @@
 							*Incorrect username or password.
 						</div>
 						<br>
-						<div class="form-group row">
-							<label class="col-xs-2 control-label">Username</label>
-							<div class="col-xs-10">
-								<input id="username" type="text" name="username" class="form-control">
+						<form id="loginForm">
+							<div class="form-group row">
+								<label class="col-xs-2 control-label">Username</label>
+								<div class="col-xs-10">
+									<input id="username" type="text" name="username" class="form-control">
+								</div>
 							</div>
-						</div>
-						<div class="form-group row">
-							<label class="col-xs-2">Password</label>
-							<div class="col-xs-10">
-								<input id="password" type="password" name="password" class="form-control">
+							<div class="form-group row">
+								<label class="col-xs-2">Password</label>
+								<div class="col-xs-10">
+									<input id="password" type="password" name="password" class="form-control">
+								</div>
 							</div>
-						</div>
-						<button class="col-xs-6 btn btn-primary" id="login">Login</button>
-						<a href="home.php" class="btn btn-default col-xs-6">Cancel</a>
+							<button type="submit" class="col-xs-6 btn btn-primary" id="login">Login</button>
+							<a href="home.php" class="btn btn-default col-xs-6">Cancel</a>
+						</form>
     				</div>
     			</div>
 			</div>
@@ -148,7 +156,9 @@
 				});
 				// bind filter button click
 				$('button.filter').click(function() {
-					var filterValue = $( this ).attr('data-filter');
+					$('button.filter').removeClass('active');
+					$(this).addClass('active');
+					var filterValue = $(this).attr('data-filter');
 					$container.isotope({ filter: filterValue });
 				});
 
@@ -157,7 +167,8 @@
 					backdrop: 'static'
 				});
 
-				$('button#login').click(function() {
+				$('form#loginForm').submit(function(e) {
+					e.preventDefault();
 					$('#error').addClass('hide')
 					var username = $('input#username').val();
 					var password = $('input#password').val();

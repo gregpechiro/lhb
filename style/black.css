@@ -46,6 +46,9 @@ body {
 .no-margin {
     margin-right: 0px;
 }
+.no-margin-top {
+    margin-top: 0;
+}
 .no-padding {
     padding-right: 0;
 }

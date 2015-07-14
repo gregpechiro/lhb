@@ -6,7 +6,7 @@
     $server = "localhost";
     $user = "root";
     $pass = "root";
-    $db_name = "php_test";
+    $db_name = "lhb_db";
 
     // connect to server
     $conn = new mysqli($server, $user, $pass, $db_name);

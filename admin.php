@@ -21,8 +21,9 @@
 							<label>Category:</label>
 							<input type="text" class="form-control" name="category" id="category">
 						</div>
-	    				<button class="btn btn-primary">Upload</buttton>
-						</form>
+	    				<button class="btn btn-primary">Upload</button>
+						<a href="home.php" class="btn btn-default">Home</a>
+					</form>
 				</div>
 			</div>
 			<br><br>
@@ -34,7 +35,7 @@
 				$server = "localhost";
 				$user = "root";
 				$pass = "root";
-				$db_name = "php_test";
+				$db_name = "lhb_db";
 				// connect to server
 				$conn = new mysqli($server, $user, $pass, $db_name);
 
@@ -54,11 +55,11 @@
 
 				<div class="col-sm-12">
 					<div class="btn-group" role="group">
-						<button class="filter btn btn-primary active" role="group" data-filter="*">Show All</button>
+						<button class="filter btn btn-dark active" role="group" data-filter="*">Show All</button>
 						<?php
 						if ($categories->num_rows > 0) {
 							while($category = $categories->fetch_assoc()) {
-								echo '<button class="filter btn btn-primary" role="group" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
+								echo '<button class="filter btn btn-dark" role="group" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
 							}
 						}
 						?>
@@ -96,20 +97,22 @@
 							*Incorrect username or password.
 						</div>
 						<br>
-						<div class="form-group row">
-							<label class="col-xs-2 control-label">Username</label>
-							<div class="col-xs-10">
-								<input id="username" type="text" name="username" class="form-control">
+						<form id="loginForm">
+							<div class="form-group row">
+								<label class="col-xs-2 control-label">Username</label>
+								<div class="col-xs-10">
+									<input id="username" type="text" name="username" class="form-control">
+								</div>
 							</div>
-						</div>
-						<div class="form-group row">
-							<label class="col-xs-2">Password</label>
-							<div class="col-xs-10">
-								<input id="password" type="password" name="password" class="form-control">
+							<div class="form-group row">
+								<label class="col-xs-2">Password</label>
+								<div class="col-xs-10">
+									<input id="password" type="password" name="password" class="form-control">
+								</div>
 							</div>
-						</div>
-						<button class="col-xs-6 btn btn-primary" id="login">Login</button>
-						<a href="home.php" class="btn btn-default col-xs-6">Cancel</a>
+							<button type="submit" class="col-xs-6 btn btn-primary" id="login">Login</button>
+							<a href="home.php" class="btn btn-default col-xs-6">Cancel</a>
+						</form>
     				</div>
     			</div>
 			</div>
@@ -137,7 +140,8 @@
 					backdrop: 'static'
 				});
 
-				$('button#login').click(function() {
+				$('form#loginForm').submit(function(e) {
+					e.preventDefault();
 					$('#error').addClass('hide')
 					var username = $('input#username').val();
 					var password = $('input#password').val();

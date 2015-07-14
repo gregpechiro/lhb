@@ -9,7 +9,7 @@
 			<?php include 'stubs/navbar.php'; ?>
 
 			<div class="row">
-				<div class="visible-lg-block col-lg-3">
+				<div class="col-lg-3 col-md-4 col-sm-12">
 					<h1 class="center border-bottom">Our Members</h1>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
@@ -37,7 +37,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-9">
+				<div class="col-lg-9 col-md-8 col-sm-12">
 					<h2 class="center">WE ARE LANCASTER HOME BUILDERS</h2>
 					<p class="center">Founded by... back in..., Lancaster Home Builders has established itself as one of the greatest and prestigious providers of home construction and excavation. We provide a professional renovation and installation services with a real focus on customer satisfaction. Lancaster Home Builders is a multi-task company specializing in the following core areas: </p>
 

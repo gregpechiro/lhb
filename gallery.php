@@ -65,6 +65,24 @@
 				</div>
 			</div>
 			<?php include 'stubs/footer.php'; ?>
+
+			<div class="modal fade bs-example-modal-lg" id="picView" tabindex="-1">
+				<div class="modal-dialog modal-lg">
+    				<div class="modal-content">
+						<div class="modal-header">
+        					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+    					</div>
+    					<div class="modal-body">
+
+    					</div>
+    					<div class="modal-footer">
+        					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        					<button type="button" class="btn btn-primary">Save changes</button>
+    					</div>
+    				</div>
+				</div>
+			</div>
 		</div>
 		<script src="//code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

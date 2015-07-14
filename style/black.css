@@ -52,9 +52,6 @@ body {
 .footer-contact {
     text-align: right;
 }
-.center {
-    text-align: center;
-}
 .border-bottom {
     border-bottom: 2px solid white;
 }
@@ -86,6 +83,6 @@ div.caption {
     font-size: 25px;
     font-family: 'Marck Script';
 }*/
-.text-right {
-    text-align: right;
+.text-black {
+    color: black;
 }

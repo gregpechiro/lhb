@@ -9,7 +9,7 @@
 			<?php include 'stubs/navbar.php'; ?>
 			<div id="carousel-example-generic" class="carousel slide carousel-border" data-ride="carousel">
 			  <!-- Indicators -->
-			  	<ol class="carousel-indicators">
+			  	<ol class="carousel-indicators hidden-xs">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -23,10 +23,11 @@
 			  			<div class="carousel-caption">
 							<div class="caption">
 								<div class="caption-title">
-									<h2>LANCASTER HOME BUILDERS</h2>
+									<h2 class="hidden-xs">LANCASTER HOME BUILDERS</h2>
+									<h4 class="visible-xs">Lancaster Home Builders</h4>
 								</div>
-								<div class="caption-body">
-			    					<h4>Main Offices</h4>
+								<div class="caption-body hidden-xs">
+			    					<h4 class="hidden-xs">Main Offices</h4>
 								</div>
 							</div>
 			  			</div>
@@ -36,10 +37,11 @@
 			  			<div class="carousel-caption">
 							<div class="caption">
 								<div class="caption-title">
-									<h2>PROFESSIONAL STANDARDS</h2>
+									<h2 class="hidden-xs">PROFESSIONAL STANDARDS</h2>
+									<h4 class="visible-xs">Professional Standards</h4>
 								</div>
 								<div class="caption-body">
-			    					<h4>Work with us involves a carefully planned series of steps, centered around a schedule and daily communication.</h4>
+			    					<h4 class="hidden-xs">Work with us involves a carefully planned series of steps, centered around a schedule and daily communication.</h4>
 								</div>
 							</div>
 			  			</div>
@@ -49,10 +51,11 @@
 			  			<div class="carousel-caption">
 							<div class="caption">
 								<div class="caption-title">
-									<h2>OVER 15 YEARS EXPERIENCE</h2>
+									<h2 class="hidden-xs">OVER 15 YEARS EXPERIENCE</h2>
+									<h4 class="visible-xs">Over 15 Years Experience</h4>
 								</div>
 								<div class="caption-body">
-			    					<h4>We combine quality workmanship, superior knowledge and low prices to provide you with service unmatched by our competitors.</h4>
+			    					<h4 class="hidden-xs">We combine quality workmanship, superior knowledge and low prices to provide you with service unmatched by our competitors.</h4>
 								</div>
 							</div>
 			  			</div>
@@ -62,10 +65,11 @@
 			  			<div class="carousel-caption">
 							<div class="caption">
 								<div class="caption-title">
-									<h2>BEST MATERIALS</h2>
+									<h2 class="hidden-xs">BEST MATERIALS</h2>
+									<h4 class="visible-xs">Best Materials</h4>
 								</div>
 								<div class="caption-body">
-			    					<h4>We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.</h4>
+			    					<h4 class="hidden-xs">We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.</h4>
 								</div>
 							</div>
 			  			</div>

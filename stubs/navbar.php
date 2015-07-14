@@ -14,7 +14,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="home.php"><div id="pageName"></div></a>
+                    <a class="navbar-brand" href="home.php"><div id="pageName"></div><div id="pageName2"></div></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->

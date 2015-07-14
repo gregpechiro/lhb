@@ -9,7 +9,7 @@
 			<?php include 'stubs/navbar.php'; ?>
 
 			<div class="row">
-				<div class="col-lg-3">
+				<div class="col-md-3">
 					<h1 class="center border-bottom">Why Choose Us</h1>
 					<p>
 						With over 60 years of experience and a real focus on customer satisfaction, you can rely on Lancaster Home Builders for your next project. We provide a professional construction and renovation services with a real focus on customer satisfaction.
@@ -32,12 +32,12 @@
 						<li>Reading</li>
 					</ul>
 				</div>
-				<div class="col-lg-9">
+				<div class="col-md-9 col-xs-12">
 					<div class="row">
-						<div class="col-lg-4">
-							<img class="col-lg-12" src="images/samples/480x480/image_01.jpg" alt="...">
+						<div class="col-sm-4">
+							<img class="col-sm-12 col-xs-11" src="images/samples/480x480/image_01.jpg" alt="...">
 						</div>
-						<div class="col-lg-8 text-center">
+						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline">New Homes</h2>
 							<p>
 								Suspendisse imperdiet nisi quam, a molestie elit tempor sit amet. Quisque a diam sit amet est accumsan venenatis in in mauris. Mauris ultrices tempus quam id mollis. Donec felis eros, dignissim sit amet cursus quis, fringilla et turpis. Maecenas eros eros, tempor ut feugiat a, ullamcorper at nisl. Etiam maximus ipsum sed vulputate sagittis. Nam varius non diam vel efficitur. Suspendisse potenti. Cras lacinia, mi eget vulputate ultrices, nulla mi bibendum velit, sed condimentum tortor ipsum a mauris.
@@ -46,13 +46,16 @@
 					</div>
 					<br>
 					<div class="row">
-						<div class="col-lg-8 text-center">
+						<div class="col-sm-4 visible-xs">
+							<img class="col-lg-12" src="images/samples/480x480/image_02.jpg" alt="...">
+						</div>
+						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline">Decks</h2>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at commodo lacus. In egestas iaculis felis, eget volutpat arcu condimentum non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla non nulla ac sapien pretium tincidunt. Duis pharetra augue eu nunc feugiat faucibus. Sed vel turpis eget tellus faucibus rhoncus. Sed nec semper leo, id efficitur sem. Suspendisse potenti. Suspendisse potenti. In a felis diam. Morbi id turpis metus. Aliquam faucibus, mi vel mattis dignissim, lectus eros fringilla tortor, a blandit dolor diam et quam. Donec gravida est vel augue pellentesque, id venenatis nibh ultrices.
 							</p>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-sm-4 hidden-sm">
 							<img class="col-lg-12" src="images/samples/480x480/image_02.jpg" alt="...">
 						</div>
 					</div>

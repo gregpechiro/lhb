@@ -89,3 +89,17 @@ div.caption {
 .text-black {
     color: black;
 }
+
+.btn-dark {
+    background: #777777;
+    color: #ffffff;
+}
+
+.btn-dark:hover,.active {
+    background: #434343;
+    color: #e2e2e2;
+}
+
+.btn-dark:focus {
+    color: #e2e2e2;
+}

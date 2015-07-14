@@ -20,7 +20,7 @@
 				$server = "localhost";
 				$user = "root";
 				$pass = "root";
-				$db_name = "php_test";
+				$db_name = "lhb_db";
 				// connect to server
 				$conn = new mysqli($server, $user, $pass, $db_name);
 
@@ -39,11 +39,11 @@
 				?>
 				<div class="col-sm-12">
 					<div class="btn-group" role="group">
-						<button class="filter btn btn-primary active" role="group" data-filter="*">Show All</button>
+						<button class="filter btn btn-dark active" role="group" data-filter="*">Show All</button>
 						<?php
 						if ($categories->num_rows > 0) {
 							while($category = $categories->fetch_assoc()) {
-								echo '<button class="filter btn btn-primary" role="group" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
+								echo '<button class="filter btn btn-dark" role="group" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
 							}
 						}
 						?>
@@ -115,6 +115,7 @@
 		<script src="js/quote.js" charset="utf-8"></script>
 		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 		<script src="js/bootstrap-image-gallery.min.js"></script>
+
 		<script type="text/javascript">
 			$( document ).ready( function() {
 				// init Isotope
@@ -129,6 +130,7 @@
 					var filterValue = $(this).attr('data-filter');
 					$container.isotope({ filter: filterValue });
 				});
+
 			});
 		</script>
 	</body>

@@ -2,7 +2,6 @@ function getPageName() {
     var page = window.location.pathname.split('/');
     page = page[page.length - 1];
     page = page.split('.')[0];
-
     document.getElementById('pageName2').className += 'hidden-lg';
     page = page.charAt(0).toUpperCase() + page.substring(1,page.length);
 
@@ -12,11 +11,10 @@ function getPageName2() {
     var page = window.location.pathname.split('/');
     page = page[page.length - 1];
     page = page.split('.')[0];
+    document.getElementById('pageName').className += 'hidden-lg';
     if (page === "home") {
-        document.getElementById('pageName').className += 'hidden-lg';
         page = "Lancaster " + page.charAt(0).toUpperCase() + page.substring(1,page.length) + " Builders";
     } else {
-        document.getElementById('pageName').className += 'hidden-lg';
         page = page.charAt(0).toUpperCase() + page.substring(1,page.length);
     }
     return page;

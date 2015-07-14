@@ -10,7 +10,7 @@
 
 			<div class="row">
 				<div class="col-md-3">
-					<h1 class="center border-bottom">Why Choose Us</h1>
+					<h1 class="text-center border-bottom">Why Choose Us</h1>
 					<p>
 						With over 60 years of experience and a real focus on customer satisfaction, you can rely on Lancaster Home Builders for your next project. We provide a professional construction and renovation services with a real focus on customer satisfaction.
 					</p>

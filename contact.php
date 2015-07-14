@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 
-					<h1 class="center border-bottom">Contact Details</h1>
+					<h1 class="text-center border-bottom">Contact Details</h1>
 					<h3><i class="fa fa-map-marker"></i>&nbsp Address:</h3>
 					<span>
 						2760 Charlestown Rd. <br>

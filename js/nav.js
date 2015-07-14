@@ -15,6 +15,9 @@ function getPageName2() {
     if (page === "home") {
         document.getElementById('pageName').className += 'hidden-lg';
         page = "Lancaster " + page.charAt(0).toUpperCase() + page.substring(1,page.length) + " Builders";
+    } else {
+        document.getElementById('pageName').className += 'hidden-lg';
+        page = page.charAt(0).toUpperCase() + page.substring(1,page.length);
     }
     return page;
 }

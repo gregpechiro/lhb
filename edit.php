@@ -130,7 +130,7 @@
 							</div>
 						</div>
 						<button class="col-xs-6 btn btn-primary" id="login">Login</button>
-						<a href="/home.php" class="btn btn-default col-xs-6">Cancel</a>
+						<a href="home.php" class="btn btn-default col-xs-6">Cancel</a>
     				</div>
     			</div>
 			</div>

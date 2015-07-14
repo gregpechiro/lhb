@@ -59,7 +59,7 @@
 						<?php
 						if ($categories->num_rows > 0) {
 							while($category = $categories->fetch_assoc()) {
-								echo '<button class="filter btn btn-dark" role="group" data-filter=".' . $category["category"] . '">' . ucfirst($category["category"]) . '</button>';
+								echo '<button class="filter btn btn-dark" role="group" data-filter=".' . strtolower($category["category"]) . '">' . ucfirst($category["category"]) . '</button>';
 							}
 						}
 						?>
@@ -73,7 +73,7 @@
 					<?php
 					if ($images->num_rows > 0) {
 						while($image = $images->fetch_assoc()) {
-							echo '<div class="col-lg-3 item ' . $image["category"] . '">
+							echo '<div class="col-lg-3 item ' . strtolower($image["category"]) . '">
 									<a href="edit.php?id=' . $image["id"] . '">
 										<img class="img-responsive" src="' . $image["source"] . '" alt="img">
 									</a>

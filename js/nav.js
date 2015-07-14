@@ -8,25 +8,21 @@ function getPageName() {
 
     return page;
 }
-// function getPageName2() {
-//     var page = window.location.pathname.split('/');
-//     page = page[page.length - 1];
-//     page = page.split('.')[0];
-//     if (page === "home") {
-//         document.getElementById('pageName').className += 'hidden-lg';
-//         document.getElementById('pageName2').className += 'visible-lg';
-//         page = "Lancaster " + page.charAt(0).toUpperCase() + page.substring(1,page.length) + " Builders";
-//     } else {
-//         document.getElementById('pageName2').className += 'hidden-lg';
-//         page = page.charAt(0).toUpperCase() + page.substring(1,page.length);
-//     }
-//     return page;
-// }
+function getPageName2() {
+    var page = window.location.pathname.split('/');
+    page = page[page.length - 1];
+    page = page.split('.')[0];
+    if (page === "home") {
+        document.getElementById('pageName').className += 'hidden-lg';
+        page = "Lancaster " + page.charAt(0).toUpperCase() + page.substring(1,page.length) + " Builders";
+    }
+    return page;
+}
 
 var pageName = getPageName();
-// var pageName2 = getPageName2();
+var pageName2 = getPageName2();
 document.getElementById('pageName').innerHTML = pageName;
-// document.getElementById('pageName2').innerHTML = pageName2;
+document.getElementById('pageName2').innerHTML = pageName2;
 
 function setSelected() {
     var listItems = document.querySelectorAll('ul.nav > li');

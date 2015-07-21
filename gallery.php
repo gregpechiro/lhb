@@ -50,6 +50,9 @@
 					</div>
 				</div>
 			</div>
+			<div class="">
+				Check out some of our floor plans <a href="documents.php">Here</a>!
+			</div>
 			<br>
 			<div class="row">
 				<div id="links" class="isotope">

@@ -68,7 +68,7 @@
 
 				</div>
 			</div>
-			
+
 			<?php include 'stubs/footer.php'; ?>
 
 			<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
@@ -113,6 +113,14 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.1/isotope.pkgd.min.js"></script>
 		<script src="js/nav.js" charset="utf-8"></script>
+		<script type="text/javascript">
+		var quotes = [
+			'Our design selections and the construction of the final product look beautiful.',
+			'As the build progressed, we were able to add additional items into our design that we realized made more sense as the project began to take shape.',
+			'We were kept up to date on the progress and our questions and concerns were addressed.',
+			'The craftsmen were very good, respectful and pleasant.',
+		];
+		</script>
 		<script src="js/quote.js" charset="utf-8"></script>
 		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 		<script src="js/bootstrap-image-gallery.min.js"></script>

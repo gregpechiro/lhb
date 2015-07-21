@@ -2,7 +2,7 @@
     <div class="footer-line"></div>
     <div class="row footer">
         <div class="col-xs-6">
-            &copy; Lancaster Home Builders <br>
+            &copy; <a href="home.php">Lancaster Home Builders</a><br>
             Building For Your Future!<br>
             A Division of Nadu Construction, Inc.
         </div>

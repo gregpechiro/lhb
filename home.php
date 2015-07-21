@@ -27,32 +27,32 @@
 									<h4 class="visible-xs">Lancaster Home Builders</h4>
 								</div>
 								<div class="caption-body hidden-xs">
-			    					<h4 class="hidden-xs">Main Offices</h4>
+			    					<h4 class="hidden-xs">Our main office is located at 2760 Charlestown Rd. Lancaster, PA 17603</h4>
 								</div>
 							</div>
 			  			</div>
 					</div>
 					<div class="item">
-			  			<img src="images/slider/image_01.jpg" alt="...">
+			  			<img src="images/lhbImages/SYP_1781-2-2.jpg" alt="...">
 			  			<div class="carousel-caption">
 							<div class="caption">
 								<div class="caption-title">
-									<h2 class="hidden-xs">PROFESSIONAL STANDARDS</h2>
-									<h4 class="visible-xs">Professional Standards</h4>
+									<h2 class="hidden-xs">NEW HOME CONSTRUCTION</h2>
+									<h4 class="visible-xs">New Home Construction</h4>
 								</div>
 								<div class="caption-body">
-			    					<h4 class="hidden-xs">Work with us involves a carefully planned series of steps, centered around a schedule and daily communication.</h4>
+			    					<h4 class="hidden-xs">We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.</h4>
 								</div>
 							</div>
 			  			</div>
 					</div>
 					<div class="item">
-			  			<img src="images/slider/image_02.jpg" alt="...">
+			  			<img src="images/lhbImages/IMG_7303-slider.jpg" alt="...">
 			  			<div class="carousel-caption">
 							<div class="caption">
 								<div class="caption-title">
-									<h2 class="hidden-xs">OVER 15 YEARS EXPERIENCE</h2>
-									<h4 class="visible-xs">Over 15 Years Experience</h4>
+									<h2 class="hidden-xs">PROFESSIONAL DESIGN</h2>
+									<h4 class="visible-xs">Professional Design</h4>
 								</div>
 								<div class="caption-body">
 			    					<h4 class="hidden-xs">We combine quality workmanship, superior knowledge and low prices to provide you with service unmatched by our competitors.</h4>
@@ -61,15 +61,15 @@
 			  			</div>
 					</div>
 					<div class="item">
-			  			<img src="images/slider/image_03.jpg" alt="...">
+			  			<img src="images/lhbImages/IMG_7321-slider.jpg" alt="...">
 			  			<div class="carousel-caption">
 							<div class="caption">
 								<div class="caption-title">
-									<h2 class="hidden-xs">BEST MATERIALS</h2>
-									<h4 class="visible-xs">Best Materials</h4>
+									<h2 class="hidden-xs">CURRENT DEALS</h2>
+									<h4 class="visible-xs">Current Deals</h4>
 								</div>
 								<div class="caption-body">
-			    					<h4 class="hidden-xs">We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.</h4>
+			    					<h4 class="hidden-xs">We are offering a free kitchen upgrade with any new home construction.</h4>
 								</div>
 							</div>
 			  			</div>
@@ -90,9 +90,17 @@
 			<?php include 'stubs/footer.php'; ?>
 		</div>
 
-		<script src="js/nav.js" charset="utf-8"></script>
-		<script src="js/quote.js" charset="utf-8"></script>
 		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="js/nav.js" charset="utf-8"></script>
+		<script type="text/javascript">
+		var quotes = [
+			'We recently moved into our beautiful new home built by Lancaster Home Builders.',
+			'We appreciated the ability to make adjustments to the home as we saw the progression of the build.',
+			'Our design selections and the construction of the final product look beautiful.',
+			'While the process was a learning experience and had some expected bumps along the way, we were able to stay on schedule and budget with our builder, Lancaster Home Builders.'
+		];
+		</script>
+		<script src="js/quote.js" charset="utf-8"></script>
 	</body>
 </html>

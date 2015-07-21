@@ -23,23 +23,23 @@
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
-								<img src="images/samples/480x480/image_01.jpg" alt="...">
+								<img src="images/lhbImages/IMG_6263.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/samples/480x480/image_02.jpg" alt="...">
+								<img src="images/lhbImages/IMG_6290.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/samples/480x480/image_03.jpg" alt="...">
+								<img src="images/lhbImages/IMG_6305.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/samples/480x480/image_04.jpg" alt="...">
+								<img src="images/lhbImages/IMG_6362.jpg" alt="...">
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-9 col-md-8 col-sm-12">
-					<h2 class="center">WE ARE LANCASTER HOME BUILDERS</h2>
-					<p class="center">Founded by... back in..., Lancaster Home Builders has established itself as one of the greatest and prestigious providers of home construction and excavation. We provide a professional renovation and installation services with a real focus on customer satisfaction. Lancaster Home Builders is a multi-task company specializing in the following core areas: </p>
+					<h2 class="text-center">WE ARE LANCASTER HOME BUILDERS</h2>
+					<p class="text-center">Founded by... back in..., Lancaster Home Builders has established itself as one of the greatest and prestigious providers of home construction (check out our proven <a href="documents.php">Floor Plans</a>) and excavation. We provide a professional renovation and installation services with a real focus on customer satisfaction. Lancaster Home Builders is a multi-task company specializing in the following core areas: </p>
 
 					<ul class="col-lg-offset-2">
 						<li class="">We combine Quality Workmanship, Superior Knowledge and Low Prices</li>
@@ -61,6 +61,15 @@
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="js/nav.js" charset="utf-8"></script>
+		<script type="text/javascript">
+		var quotes = [
+			'Joe Nadu listened to our requirements and his architect designed a home that we are now truly enjoying.',
+			'Michele Wenger was wonderful at helping us get started with our selections. She coordinated everything between us and the various vendors.',
+			'Kimberly Gribbin was very knowledgeable on decorating. She gave us many excellent ideas for making our home look beautiful; inside and out.',
+			'Jeff Harmes was excellent to work with on our electrical requirements. Likewaise Craig Scheirer at Cloister Cabinetry.',
+			'We had a good rapport with Mike Way throughout the building process.'
+		];
+		</script>
 		<script src="js/quote.js" charset="utf-8"></script>
     </body>
 </html>

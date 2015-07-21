@@ -49,6 +49,9 @@ body {
 .no-margin-top {
     margin-top: 0;
 }
+.margin-bottom {
+    margin-bottom: 10px;
+}
 .no-padding {
     padding-right: 0;
 }
@@ -102,4 +105,8 @@ div.caption {
 
 .btn-dark:focus {
     color: #e2e2e2;
+}
+
+.text-18 {
+    font-size: 18px;
 }

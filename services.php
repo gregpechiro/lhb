@@ -12,7 +12,7 @@
 				<div class="col-md-3">
 					<h1 class="text-center border-bottom">Why Choose Us</h1>
 					<p>
-						With over 60 years of experience and a real focus on customer satisfaction, you can rely on Lancaster Home Builders for your next project. We provide a professional construction and renovation services with a real focus on customer satisfaction.
+						With over 15 years of experience and a real focus on customer satisfaction, you can rely on Lancaster Home Builders for your next project. We provide a professional construction and renovation services with a real focus on customer satisfaction.
 					</p>
 					<br>
 					<p><i class="fa fa-check"></i> Financial Responsibility to Our Clients</p>
@@ -35,12 +35,13 @@
 					<div class="row">
 						<div class="col-sm-4">
 							<h2 class="text-underline no-margin-top visible-xs text-center">New Homes</h2>
-							<img class="col-sm-12 col-xs-12" src="images/samples/480x480/image_01.jpg" alt="...">
+							<img class="col-sm-12 col-xs-12" src="images/lhbImages/IMG_1280-new-homes.jpg" alt="...">
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline no-margin-top hidden-xs">New Homes</h2>
 							<p>
 								Suspendisse imperdiet nisi quam, a molestie elit tempor sit amet. Quisque a diam sit amet est accumsan venenatis in in mauris. Mauris ultrices tempus quam id mollis. Donec felis eros, dignissim sit amet cursus quis, fringilla et turpis. Maecenas eros eros, tempor ut feugiat a, ullamcorper at nisl. Etiam maximus ipsum sed vulputate sagittis. Nam varius non diam vel efficitur. Suspendisse potenti. Cras lacinia, mi eget vulputate ultrices, nulla mi bibendum velit, sed condimentum tortor ipsum a mauris.
+								<a href="documents.php">Floor Plans</a>
 							</p>
 						</div>
 					</div>
@@ -48,7 +49,7 @@
 					<div class="row">
 						<div class="col-sm-4 visible-xs ">
 							<h2 class="text-underline no-margin-top text-center">Decks</h2>
-							<img class="col-sm-12 col-xs-12" src="images/samples/480x480/image_02.jpg" alt="...">
+							<img class="col-sm-12 col-xs-12" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline no-margin-top hidden-xs">Decks</h2>
@@ -57,14 +58,14 @@
 							</p>
 						</div>
 						<div class="col-sm-4  hidden-xs">
-							<img class="col-sm-12 col-xs-12" src="images/samples/480x480/image_02.jpg" alt="...">
+							<img class="col-sm-12 col-xs-12" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
 						</div>
 					</div>
 					<br>
 					<div class="row">
 						<div class="col-sm-4">
 							<h2 class="text-underline no-margin-top visible-xs text-center">Nadu Excavating</h2>
-							<img class="col-sm-12 col-xs-12" src="images/samples/480x480/image_03.jpg" alt="...">
+							<img class="col-sm-12 col-xs-12" src="images/image_08-excavation.jpg" alt="...">
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline no-margin-top hidden-xs">Nadu Excavating</h2>
@@ -77,7 +78,7 @@
 					<div class="row">
 						<div class="col-sm-4 visible-xs">
 							<h2 class="text-underline no-margin-top text-center">M&J Plumbing</h2>
-							<img class="col-sm-12 col-xs-12" src="images/samples/480x480/image_04.jpg" alt="...">
+							<img class="col-sm-12 col-xs-12" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline no-margin-top hidden-xs">M&J Plumbing</h2>
@@ -86,7 +87,7 @@
 							</p>
 						</div>
 						<div class="col-sm-4 hidden-xs">
-							<img class="col-sm-12 col-xs-12" src="images/samples/480x480/image_04.jpg" alt="...">
+							<img class="col-sm-12 col-xs-12" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
 						</div>
 					</div>
 				</div>
@@ -95,9 +96,16 @@
 			<?php include 'stubs/footer.php'; ?>
         </div>
 
-		<script src="js/nav.js" charset="utf-8"></script>
-		<script src="js/quote.js" charset="utf-8"></script>
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="js/nav.js" charset="utf-8"></script>
+		<script type="text/javascript">
+		var quotes = [
+			'The craftsmen were very good, respectful and pleasant.',
+			'We were kept up to date on the progress and our questions and concerns were addressed.',
+			'As the build progressed, we were able to add additional items into our design that we realized made more sense as the project began to take shape.'
+		];
+		</script>
+		<script src="js/quote.js" charset="utf-8"></script>
     </body>
 </html>

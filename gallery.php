@@ -127,23 +127,6 @@
 		<script src="js/quote.js" charset="utf-8"></script>
 		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 		<script src="js/bootstrap-image-gallery.min.js"></script>
-
-		<script type="text/javascript">
-			$( document ).ready( function() {
-				// init Isotope
-				var $container = $('.isotope').isotope({
-					itemSelector: '.item',
-					layoutMode: 'fitRows'
-				// bind filter button click
-				});
-				$('button.filter').click(function() {
-					$('button.filter').removeClass('active');
-					$(this).addClass('active');
-					var filterValue = $(this).attr('data-filter');
-					$container.isotope({ filter: filterValue });
-				});
-
-			});
-		</script>
+		<script src="js/gallery.js" charset="utf-8"></script>
 	</body>
 </html>

@@ -49,7 +49,7 @@
 							</div>
                     	<input type="hidden" name="id" id="id" value="' . $img["id"] . '">
 						<button class="btn btn-primary">Save</button>
-						<a href="home.php" class="btn btn-default">Home</a>
+						<a href="#" id="cancel" class="btn btn-default">Logout</a>
             		</form>';
                 	?>
 				</div>
@@ -114,7 +114,7 @@
 		</div>
 
 		<div class="modal text-black fade" id="login">
-			<div class="modal-dialog">
+			<div class="modal-dialog modal-sm">
     			<div class="modal-content">
     				<div class="modal-header">
         				<h4 class="modal-title">Login</h4>
@@ -148,38 +148,7 @@
 		<script src="//code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.1/isotope.pkgd.min.js"></script>
-		<script type="text/javascript">
-			$( document ).ready( function() {
-				// init Isotope
-				var $container = $('.isotope').isotope({
-					itemSelector: '.item',
-					layoutMode: 'fitRows'
-				});
-				// bind filter button click
-				$('button.filter').click(function() {
-					$('button.filter').removeClass('active');
-					$(this).addClass('active');
-					var filterValue = $(this).attr('data-filter');
-					$container.isotope({ filter: filterValue });
-				});
-
-				$('#login').modal({
-					keyboard: false,
-					backdrop: 'static'
-				});
-
-				$('form#loginForm').submit(function(e) {
-					e.preventDefault();
-					$('#error').addClass('hide')
-					var username = $('input#username').val();
-					var password = $('input#password').val();
-					if (username === 'admin' && password === 'admin') {
-						$('#login').modal('hide');
-					} else {
-						$('#error').removeClass('hide');
-					}
-				});
-			});
-		</script>
+		<script src="js/login.js" charset="utf-8"></script>
+		<script src="js/gallery.js" charset="utf-8"></script>
 	</body>
 </html>

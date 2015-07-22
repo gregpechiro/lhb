@@ -110,3 +110,8 @@ div.caption {
 .text-18 {
     font-size: 18px;
 }
+
+.border-small {
+    border: 2px solid white;
+    border-radius: 2px;
+}

@@ -10,7 +10,7 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-8">
-					<h1 class="text-center border-bottom">Our Members</h1>
+					<h1 class="text-center border-bottom">Our Team</h1>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
 						<!-- <ol class="carousel-indicators">

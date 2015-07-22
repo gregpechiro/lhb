@@ -69,7 +69,7 @@
 									<h4 class="visible-xs">Current Deals</h4>
 								</div>
 								<div class="caption-body">
-			    					<h4 class="hidden-xs">We are offering a free kitchen upgrade with any new home construction.</h4>
+			    					<h4 class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
 								</div>
 							</div>
 			  			</div>

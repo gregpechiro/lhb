@@ -30,12 +30,15 @@
 						<li>Dolphin</li>
 						<li>Reading</li>
 					</ul>
+					<h1 class="text-center border-bottom visible-xs visible-sm">What We Offer</h1>
 				</div>
 				<div class="col-md-9 col-xs-12">
 					<div class="row">
 						<div class="col-sm-4">
 							<h2 class="text-underline no-margin-top visible-xs text-center">New Homes</h2>
-							<img class="col-sm-12 col-xs-12" src="images/lhbImages/IMG_1280-new-homes.jpg" alt="...">
+							<div class="col-sm-12 col-xs-12">
+								<img class="img-responsive border-small" src="images/lhbImages/IMG_1280-new-homes.jpg" alt="...">
+							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline no-margin-top hidden-xs">New Homes</h2>
@@ -49,7 +52,9 @@
 					<div class="row">
 						<div class="col-sm-4 visible-xs ">
 							<h2 class="text-underline no-margin-top text-center">Decks</h2>
-							<img class="col-sm-12 col-xs-12" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
+							<div class="col-sm-12 col-xs-12">
+								<img class="img-responsive border-small" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
+							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline no-margin-top hidden-xs">Decks</h2>
@@ -58,14 +63,18 @@
 							</p>
 						</div>
 						<div class="col-sm-4  hidden-xs">
-							<img class="col-sm-12 col-xs-12" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
+							<div class="col-sm-12 col-xs-12">
+								<img class="img-responsive border-small" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
+							</div>
 						</div>
 					</div>
 					<br>
 					<div class="row">
 						<div class="col-sm-4">
 							<h2 class="text-underline no-margin-top visible-xs text-center">Nadu Excavating</h2>
-							<img class="col-sm-12 col-xs-12" src="images/image_08-excavation.jpg" alt="...">
+							<div class="col-sm-12 col-xs-12">
+								<img class="img-responsive border-small" src="images/image_08-excavation.jpg" alt="...">
+							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline no-margin-top hidden-xs">Nadu Excavating</h2>
@@ -78,7 +87,9 @@
 					<div class="row">
 						<div class="col-sm-4 visible-xs">
 							<h2 class="text-underline no-margin-top text-center">M&J Plumbing</h2>
-							<img class="col-sm-12 col-xs-12" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
+							<div class="col-sm-12 col-xs-12">
+								<img class="img-responsive border-small" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
+							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
 							<h2 class="text-underline no-margin-top hidden-xs">M&J Plumbing</h2>
@@ -87,7 +98,9 @@
 							</p>
 						</div>
 						<div class="col-sm-4 hidden-xs">
-							<img class="col-sm-12 col-xs-12" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
+							<div class="col-sm-12 col-xs-12">
+								<img class="img-responsive border-small" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
+							</div>
 						</div>
 					</div>
 				</div>

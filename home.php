@@ -28,7 +28,7 @@
 			$slideResult = $conn->query($slideQuery);
 			$slide = $slideResult->fetch_assoc();
 			if (is_null($slide)) {
-				$slide['title'] = 'Watch For upcoming deals';
+				$slide['title'] = 'Watch For Upcoming Deals';
 				$slide['body'] = '';
 			}
 

@@ -3,6 +3,13 @@
 	<head>
 		<title>Home | Lancaster Home Builders PA Home Construction</title>
 		<?php include 'stubs/head.php'; ?>
+		<style>
+			.carousel-caption {
+				padding-bottom: 0px;
+				text-align: left;
+				left: 0%;
+			}
+		</style>
 	</head>
 	<body class="">
 		<div id="container" class="container">
@@ -34,30 +41,36 @@
 
 			$conn->close();
 			?>
-			<div id="carousel-example-generic" class="carousel slide carousel-border" data-ride="carousel">
+			<div id="carousel-example-generic" class="carousel slide carousel-border" data-ride="carousel" data-interval="false">
 			  <!-- Indicators -->
-			  	<ol class="carousel-indicators hidden-xs">
+			  	<!-- <ol class="carousel-indicators hidden-xs">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-			  	</ol>
+			  	</ol> -->
 
 			  	<!-- Wrapper for slides -->
 			  	<div class="carousel-inner" role="listbox">
 					<div class="item active">
 			  			<img src="images/office.jpg" alt="...">
-			  			<div class="carousel-caption">
+			  			<div class="carousel-caption col-xs-5">
+							<!-- <h4 class="hidden-xs">LANCASTER HOME BUILDERS</h4>
+							<h4 class="visible-xs">Lancaster Home Builders</h4>
+							<p class="hidden-xs">
+								Building for your future!<br>
+								Our main office is located at 2760 Charlestown Rd. Lancaster, PA 17603
+							</p> -->
 							<div class="caption">
-								<div class="caption-title">
-									<h2 class="hidden-xs">LANCASTER HOME BUILDERS</h2>
+								<div class="caption-body">
+									<h4 class="hidden-xs">LANCASTER HOME BUILDERS</h4>
 									<h4 class="visible-xs">Lancaster Home Builders</h4>
 								</div>
 								<div class="caption-body hidden-xs">
-			    					<h4 class="hidden-xs">
+			    					<p class="hidden-xs">
 										Building for your future!<br>
 										Our main office is located at 2760 Charlestown Rd. Lancaster, PA 17603
-									</h4>
+									</p>
 								</div>
 							</div>
 			  			</div>
@@ -67,11 +80,14 @@
 			  			<div class="carousel-caption">
 							<div class="caption">
 								<div class="caption-title">
-									<h2 class="hidden-xs">NEW HOME CONSTRUCTION</h2>
+									<h4 class="hidden-xs">NEW HOME CONSTRUCTION</h4>
 									<h4 class="visible-xs">New Home Construction</h4>
 								</div>
 								<div class="caption-body">
-			    					<h4 class="hidden-xs">We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.</h4>
+			    					<p class="hidden-xs">
+										We have the experience, personel and resources to make the project run smoothly.<br>
+										We can ensure a job is done on time.
+									</p>
 								</div>
 							</div>
 			  			</div>

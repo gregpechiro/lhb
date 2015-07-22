@@ -33,8 +33,10 @@ div.navbar-collapse ul.nav li>a:hover {
     text-align:;
 }
 body {
-    background-image: url('../images/back3.jpg');
-    color: #eee;
+    /*background-image: url('../images/back3.jpg');
+    color: #eee;*/
+    background-color: rgb(202, 190, 174);
+    color: black
 }
 .footer-line {
     margin-top: 20px;

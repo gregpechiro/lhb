@@ -100,8 +100,7 @@
 		var quotes = [
 			'We recently moved into our beautiful new home built by Lancaster Home Builders.',
 			'We appreciated the ability to make adjustments to the home as we saw the progression of the build.',
-			'Our design selections and the construction of the final product look beautiful.',
-			'While the process was a learning experience and had some expected bumps along the way, we were able to stay on schedule and budget with our builder, Lancaster Home Builders.'
+			'Our design selections and the construction of the final product look beautiful.'
 		];
 		</script>
 		<script src="js/quote.js" charset="utf-8"></script>

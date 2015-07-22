@@ -121,7 +121,7 @@
 			'Our design selections and the construction of the final product look beautiful.',
 			'As the build progressed, we were able to add additional items into our design that we realized made more sense as the project began to take shape.',
 			'We were kept up to date on the progress and our questions and concerns were addressed.',
-			'The craftsmen were very good, respectful and pleasant.',
+			'The craftsmen were very good, respectful and pleasant.'
 		];
 		</script>
 		<script src="js/quote.js" charset="utf-8"></script>

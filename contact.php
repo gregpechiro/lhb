@@ -54,8 +54,7 @@
 		var quotes = [
 			'Thank you to everyone at Lancaster Home Builders. We certainly recommend Lancaster Home Builders.',
 			'We\'re looking forward to closing on our new home (a week ahead of schedule) and know that we will be very happy raising our family there for many years to come!',
-			'Our design selections and the construction of the final product look beautiful.',
-			'While the process was a learning experience and had some expected bumps along the way, we were able to stay on schedule and budget with our builder, Lancaster Home Builders.'
+			'Our design selections and the construction of the final product look beautiful.'
 		];
 		</script>
 		<script src="js/quote.js" charset="utf-8"></script>

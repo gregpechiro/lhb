@@ -106,12 +106,13 @@ div.caption {
 .btn-dark:focus {
     color: #e2e2e2;
 }
-
 .text-18 {
     font-size: 18px;
 }
-
 .border-small {
     border: 2px solid white;
     border-radius: 2px;
+}
+.inherit {
+    color: inherit;
 }

@@ -27,7 +27,10 @@
 									<h4 class="visible-xs">Lancaster Home Builders</h4>
 								</div>
 								<div class="caption-body hidden-xs">
-			    					<h4 class="hidden-xs">Our main office is located at 2760 Charlestown Rd. Lancaster, PA 17603</h4>
+			    					<h4 class="hidden-xs">
+										Building for your future!<br>
+										Our main office is located at 2760 Charlestown Rd. Lancaster, PA 17603
+									</h4>
 								</div>
 							</div>
 			  			</div>

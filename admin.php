@@ -37,37 +37,63 @@
 		$slideResult = $conn->query($slideQuery);
 		$slide = $slideResult->fetch_assoc();
 
+		if (isset($_GET["id"])) {
+			$imgQuery = "SELECT * FROM images WHERE id=" . $_GET["id"];
+			$imgResult = $conn->query($imgQuery);
+			$img = $imgResult->fetch_assoc();
+		}
+
 		$conn->close();
 		?>
-		<br><br>
 		<div class="container">
 			<?php include 'stubs/adminNav.php'; ?>
 			<div class="row">
-				<div class="col-lg-4 text-black">
+				<div class="col-lg-offset-2 col-lg-4 text-black">
 					<div class="panel panel-primary">
-						<div class="panel-heading">Add Image</div>
+						<div class="panel-heading">Gallery</div>
 						<div class="panel-body">
-							<form action="upload.php" method="post" class="form-horizontal" enctype="multipart/form-data">
-								<div class="form-group">
-									<div class="col-xs-12">
-										<label class="btn btn-default btn-block uploader" for="file">Select File</label>
-										<input class="uploader" id="file" type="file" name="front" required>
-									</div>
-								</div>
-								<div class="form-group">
-									<label class="control-label col-xs-3">Description:</label>
-									<div class="col-xs-9">
-										<input class="form-control" type="text" name="description" id="description">
-									</div>
-								</div>
-								<div class="form-group">
-									<label class="control-label col-xs-3">Category:</label>
-									<div class="col-xs-9">
-										<input type="text" class="form-control" name="category" id="category">
-									</div>
-								</div>
-	    						<button class="btn btn-primary btn-block">Upload</button>
-							</form>
+							<?php
+							if (isset($_GET["id"])) {
+								echo '<form action="save.php" method="post" class="form-horizontal" enctype="multipart/form-data">
+										<div class="form-group">
+											<label class="control-label col-xs-3">Description:</label>
+											<div class="col-xs-9">
+												<input class="form-control" type="text" name="description" id="description" value="' . $img["description"] . '">
+												</div>
+												</div>
+												<div class="form-group">
+												<label class="control-label col-xs-3">Category:</label>
+												<div class="col-xs-9">
+												<input type="text" class="form-control" name="category" id="category" value="' . $img["category"] . '">
+												</div>
+												</div>
+												<input type="hidden" name="id" id="id" value="' . $img["id"] . '">
+	    								<button class="btn btn-primary btn-block">Save</button>
+									</form>';
+							} else {
+								echo '<form action="upload.php" method="post" class="form-horizontal" enctype="multipart/form-data">
+										<div class="form-group">
+											<div class="col-xs-12">
+												<label class="btn btn-default btn-block uploader" for="file">Select File</label>
+												<input class="uploader" id="file" type="file" name="front" required>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="control-label col-xs-3">Description:</label>
+											<div class="col-xs-9">
+												<input class="form-control" type="text" name="description" id="description">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="control-label col-xs-3">Category:</label>
+											<div class="col-xs-9">
+												<input type="text" class="form-control" name="category" id="category">
+											</div>
+										</div>
+			    						<button class="btn btn-primary btn-block">Upload</button>
+									</form>';
+							}
+							?>
 						</div>
 					</div>
 				</div>
@@ -120,7 +146,7 @@
 					if ($images->num_rows > 0) {
 						while($image = $images->fetch_assoc()) {
 							echo '<div class="col-lg-3 item ' . strtolower($image["category"]) . '">
-									<a href="edit.php?id=' . $image["id"] . '">
+									<a href="admin.php?id=' . $image["id"] . '">
 										<img class="img-responsive" src="' . $image["source"] . '" alt="img">
 									</a>
 								</div>';

@@ -7,6 +7,33 @@
 	<body class="">
 		<div id="container" class="container">
 			<?php include 'stubs/navbar.php'; ?>
+
+			<?php
+			ini_set('display_errors',1);
+			error_reporting(E_ALL);
+			// server variables
+			$server = "localhost";
+			$user = "root";
+			$pass = "root";
+			$db_name = "lhb_db";
+			// connect to server
+			$conn = new mysqli($server, $user, $pass, $db_name);
+
+			// check connection
+			if ($conn->connect_error) {
+				die("connection failed: " . $conn->connect_error);
+			}
+
+			$slideQuery = "SELECT * FROM slide WHERE id=1";
+			$slideResult = $conn->query($slideQuery);
+			$slide = $slideResult->fetch_assoc();
+			if (is_null($slide)) {
+				$slide['title'] = 'Watch For Upcoming Deals';
+				$slide['body'] = '';
+			}
+
+			$conn->close();
+			?>
 			<div id="carousel-example-generic" class="carousel slide carousel-border" data-ride="carousel">
 			  <!-- Indicators -->
 			  	<ol class="carousel-indicators hidden-xs">
@@ -68,11 +95,11 @@
 			  			<div class="carousel-caption">
 							<div class="caption">
 								<div class="caption-title">
-									<h2 class="hidden-xs">CURRENT DEALS</h2>
-									<h4 class="visible-xs">Current Deals</h4>
+									<h2 class="hidden-xs"><?php echo strtoupper($slide['title'])?></h2>
+									<h4 class="visible-xs"><?php echo $slide['title']?></h4>
 								</div>
 								<div class="caption-body">
-			    					<h4 class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+			    					<h4 class="hidden-xs"><?php echo $slide['body']?></h4>
 								</div>
 							</div>
 			  			</div>

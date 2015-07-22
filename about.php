@@ -10,7 +10,7 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-8">
-					<h1 class="text-center border-bottom">Our Team</h1>
+					<h1 class="text-center border-bottom text-green">Clean Designs</h1>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
 						<!-- <ol class="carousel-indicators">
@@ -38,7 +38,12 @@
 					</div>
 				</div>
 				<div class="col-lg-9 col-md-8 col-sm-12">
-					<h2 class="text-center">WE ARE LANCASTER HOME BUILDERS</h2>
+					<h2 class="text-center text-green text-underline">WE ARE LANCASTER HOME BUILDERS</h2>
+					<div class="text-center">
+						<h3 class="text-green">OUR MISSION</h3>
+						<p class="">At Lancaster Home Builders, our goal is simple. We are committed to providing you with remarkable custom design and quality construction – regardless of your budget. We consider our build process to be the most valuable and efficient way to accomplish this task. No matter the size or complexity of your future home or project, we are here to serve you.</p>
+					</div>
+					<br>
 					<p class="text-center">Founded by... back in..., Lancaster Home Builders has established itself as one of the greatest and prestigious providers of home construction (check out our proven <a href="documents.php">Floor Plans</a>) and excavation. We provide a professional renovation and installation services with a real focus on customer satisfaction. Lancaster Home Builders is a multi-task company specializing in the following core areas: </p>
 
 					<ul class="col-lg-offset-2">
@@ -48,10 +53,6 @@
 						<li class="">Proffesional Service for Private and Commercial Customers</li>
 						<li class="">Over 15 Years Experience and a Real Focus on Customer Satisfaction</li>
 					</ul>
-					<div class="text-center">
-						<h3 class="">OUR MISSION</h3>
-						<p class="">At Lancaster Home Builders, our goal is simple. We are committed to providing you with remarkable custom design and quality construction – regardless of your budget. We consider our build process to be the most valuable and efficient way to accomplish this task. No matter the size or complexity of your future home or project, we are here to serve you.</p>
-					</div>
 				</div>
 			</div>
 

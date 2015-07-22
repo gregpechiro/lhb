@@ -12,22 +12,22 @@
 
 					<h1 class="text-center border-bottom">Contact Details</h1>
 					<h3><i class="fa fa-map-marker"></i>&nbsp Address:</h3>
-					<span>
+					<p class="col-xs-offset-1">
 						2760 Charlestown Rd. <br>
 						Lancaster, PA 17603 <br>
-					</span>
+					</p>
 					<h3><i class="fa fa-phone"></i> Phone:</h3>
-					<span>
+					<p class="col-xs-offset-1">
 						(717) 394-6621
-					</span>
+					</p>
 					<h3><i class="fa fa-fax"></i> Fax:</h3>
-					<span>
+					<p class="col-xs-offset-1">
 						(717) 394-6729
-					</span>
+					</p>
 					<h3><i class="fa fa-envelope-o"></i> Email:</h3>
-					<span>
+					<p class="col-xs-offset-1">
 						<a href="mailto:contact@lancasterhomebuilders.com">contact@lancasterhomebuilders.com</a>
-					</span>
+					</p>
 				</div>
 
 				<div class="visible-lg-block col-lg-9">

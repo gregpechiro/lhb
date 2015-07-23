@@ -33,7 +33,7 @@ div.navbar-collapse ul.nav li>a:hover {
     text-align:;
 }
 body {
-    background-color: rgb(202, 190, 174);
+    background-color: rgb(188, 172, 146);
     color: black
 }
 .footer-line {
@@ -61,18 +61,10 @@ body {
 .border-bottom {
     border-bottom: 2px solid black;
 }
-
-/*.text-marck {
-    font-family: 'Marck Script', cursive;
-    font-size: 25px;
-}*/
-div.caption-title {
-    background-color: rgba(38, 38, 40, 0.68);
+.border-bot-green {
     border-bottom: 1px solid darkGreen;
 }
-div.caption-body {
-}
-div.caption {
+.caption {
     background-color: rgba(38, 38, 40, 0.7);
 }
 .bbb-logo {

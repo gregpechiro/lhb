@@ -8,6 +8,9 @@
 		<div id="container" class="container">
 			<?php include 'stubs/navbar.php'; ?>
 
+			<h1 class="text-green text-underline">New Home Brochures</h1>
+			<br>
+
             <ul class="visible-xs">
 			    <li><a href="documents/AugustaBrochure.pdf">Augusta Brochure, 2582 sq ft</a></li>
                 <li><a href="documents/CharlestonBrochure.pdf">Charleston Brochure, 2754 sq ft</a></li>

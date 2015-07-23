@@ -10,7 +10,7 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-8">
-					<h1 class="text-center border-bottom text-green">Clean Designs</h1>
+					<h1 class="text-center border-bottom text-green">Clean Design</h1>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
 						<!-- <ol class="carousel-indicators">
@@ -44,7 +44,7 @@
 						<p class="">At Lancaster Home Builders, our goal is simple. We are committed to providing you with remarkable custom design and quality construction – regardless of your budget. We consider our build process to be the most valuable and efficient way to accomplish this task. No matter the size or complexity of your future home or project, we are here to serve you.</p>
 					</div>
 					<br>
-					<p class="text-center">Founded by... back in..., Lancaster Home Builders has established itself as one of the greatest and prestigious providers of home construction (check out our proven <a href="documents.php">Floor Plans</a>) and excavation. We provide a professional renovation and installation services with a real focus on customer satisfaction. Lancaster Home Builders is a multi-task company specializing in the following core areas: </p>
+					<p class="text-center">Founded by... back in..., Lancaster Home Builders has established itself as one of the greatest and prestigious providers of home construction and excavation. We provide a professional renovation and installation services with a real focus on customer satisfaction. Lancaster Home Builders is a multi-task company specializing in the following core areas: </p>
 
 					<ul class="col-lg-offset-2">
 						<li class="">We combine Quality Workmanship, Superior Knowledge and Low Prices</li>

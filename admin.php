@@ -193,6 +193,7 @@
 		<script src="//code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.1/isotope.pkgd.min.js"></script>
+		<script src="js/nav.js" charset="utf-8"></script>
 		<script src="js/login.js" charset="utf-8"></script>
 		<script src="js/gallery.js" charset="utf-8"></script>
 		<script>

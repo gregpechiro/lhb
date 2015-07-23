@@ -111,7 +111,6 @@ div.caption {
 }
 .border-small {
     border: 2px solid black;
-    border-radius: 2px;
 }
 .inherit {
     color: inherit;

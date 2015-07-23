@@ -11,12 +11,13 @@ function getPageName2() {
     var page = window.location.pathname.split('/');
     page = page[page.length - 1];
     page = page.split('.')[0];
+    page = page.charAt(0).toUpperCase() + page.substring(1,page.length);
     document.getElementById('pageName').className += 'hidden-lg';
-    if (page === "home") {
-        page = "Lancaster " + page.charAt(0).toUpperCase() + page.substring(1,page.length) + " Builders";
-    } else {
-        page = page.charAt(0).toUpperCase() + page.substring(1,page.length);
-    }
+    // if (page === "home") {
+    //     page = "Lancaster " + page.charAt(0).toUpperCase() + page.substring(1,page.length) + " Builders";
+    // } else {
+    //     page = page.charAt(0).toUpperCase() + page.substring(1,page.length);
+    // }
     return page;
 }
 

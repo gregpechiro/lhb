@@ -22,29 +22,35 @@
 					<p><i class="fa fa-check"></i> On Time and on Budget</p>
 					<p><i class="fa fa-check"></i> Real Focus on Customer Satisfaction</p>
 					<br><br>
-					<p>We serve everything within an hour radius of the following areas: </p>
+					<p>We serve the following areas: </p>
 					<ul>
 						<li>York</li>
 						<li>Chester</li>
 						<li>Lancaster</li>
-						<li>Dolphin</li>
+						<li>Dauphin</li>
 						<li>Reading</li>
 					</ul>
 					<h1 class="text-center border-bottom visible-xs visible-sm text-green">What We Offer</h1>
 				</div>
 				<div class="col-md-9 col-xs-12">
 					<div class="row">
+						<div class="col-xs-12 text-center">
+							<h2 class="text-underline no-margin-top hidden-xs text-green">New Homes</h2>
+						</div>
 						<div class="col-sm-4">
-							<h2 class="text-underline no-margin-top visible-xs text-center text-darkGreen">New Homes</h2>
+							<!-- <h2 class="text-underline no-margin-top visible-xs text-center text-darkGreen">New Homes</h2> -->
 							<div class="col-sm-12 col-xs-12">
-								<img class="img-responsive border-small" src="images/lhbImages/IMG_1280-new-homes.jpg" alt="...">
+								<img class="img-responsive border-small img-rounded" src="images/lhbImages/IMG_1280-new-homes.jpg" alt="...">
 							</div>
 						</div>
-						<div class="col-sm-8 col-xs-12 text-center">
-							<h2 class="text-underline no-margin-top hidden-xs text-green">New Homes</h2>
+						<div class="col-sm-8 col-xs-12">
+							<!-- <h2 class="text-underline no-margin-top hidden-xs text-green">New Homes</h2> -->
 							<p>
-								Suspendisse imperdiet nisi quam, a molestie elit tempor sit amet. Quisque a diam sit amet est accumsan venenatis in in mauris. Mauris ultrices tempus quam id mollis. Donec felis eros, dignissim sit amet cursus quis, fringilla et turpis. Maecenas eros eros, tempor ut feugiat a, ullamcorper at nisl. Etiam maximus ipsum sed vulputate sagittis. Nam varius non diam vel efficitur. Suspendisse potenti. Cras lacinia, mi eget vulputate ultrices, nulla mi bibendum velit, sed condimentum tortor ipsum a mauris.
+								&nbsp; &nbsp; &nbsp; &nbsp; Suspendisse imperdiet nisi quam, a molestie elit tempor sit amet. Quisque a diam sit amet est accumsan venenatis in in mauris. Mauris ultrices tempus quam id mollis. Donec felis eros, dignissim sit amet cursus quis, fringilla et turpis. Maecenas eros eros, tempor ut feugiat a, ullamcorper at nisl. Etiam maximus ipsum sed vulputate sagittis. Nam varius non diam vel efficitur. Suspendisse potenti. Cras lacinia, mi eget vulputate ultrices, nulla mi bibendum velit, sed condimentum tortor ipsum a mauris.
 								<a href="documents.php">Floor Plans</a>
+							</p>
+							<p>
+								&nbsp; &nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</p>
 						</div>
 					</div>
@@ -53,7 +59,7 @@
 						<div class="col-sm-4 visible-xs ">
 							<h2 class="text-underline no-margin-top text-center text-green">Decks</h2>
 							<div class="col-sm-12 col-xs-12">
-								<img class="img-responsive border-small" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
+								<img class="img-responsive border-small img-circle" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
 							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
@@ -64,7 +70,7 @@
 						</div>
 						<div class="col-sm-4  hidden-xs">
 							<div class="col-sm-12 col-xs-12">
-								<img class="img-responsive border-small" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
+								<img class="img-responsive border-small img-circle" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
 							</div>
 						</div>
 					</div>
@@ -73,7 +79,7 @@
 						<div class="col-sm-4">
 							<h2 class="text-underline no-margin-top visible-xs text-center text-green">Nadu Excavating</h2>
 							<div class="col-sm-12 col-xs-12">
-								<img class="img-responsive border-small" src="images/image_08-excavation.jpg" alt="...">
+								<img class="img-responsive border-small img-circle" src="images/image_08-excavation.jpg" alt="...">
 							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
@@ -88,7 +94,7 @@
 						<div class="col-sm-4 visible-xs">
 							<h2 class="text-underline no-margin-top text-center text-green">M&J Plumbing</h2>
 							<div class="col-sm-12 col-xs-12">
-								<img class="img-responsive border-small" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
+								<img class="img-responsive border-small img-circle" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
 							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12 text-center">
@@ -99,7 +105,7 @@
 						</div>
 						<div class="col-sm-4 hidden-xs">
 							<div class="col-sm-12 col-xs-12">
-								<img class="img-responsive border-small" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
+								<img class="img-responsive border-small img-circle" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
 							</div>
 						</div>
 					</div>

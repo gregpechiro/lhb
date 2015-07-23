@@ -55,12 +55,6 @@
 					<div class="item active">
 			  			<img src="images/office.jpg" alt="...">
 			  			<div class="carousel-caption col-xs-5">
-							<!-- <h4 class="hidden-xs">LANCASTER HOME BUILDERS</h4>
-							<h4 class="visible-xs">Lancaster Home Builders</h4>
-							<p class="hidden-xs">
-								Building for your future!<br>
-								Our main office is located at 2760 Charlestown Rd. Lancaster, PA 17603
-							</p> -->
 							<div class="caption">
 								<div class="caption-body">
 									<h4 class="hidden-xs">LANCASTER HOME BUILDERS</h4>
@@ -77,15 +71,15 @@
 					</div>
 					<div class="item">
 			  			<img src="images/lhbImages/SYP_1781-2-2.jpg" alt="...">
-			  			<div class="carousel-caption">
+			  			<div class="carousel-caption col-xs-5">
 							<div class="caption">
-								<div class="caption-title">
+								<div class="caption-body">
 									<h4 class="hidden-xs">NEW HOME CONSTRUCTION</h4>
 									<h4 class="visible-xs">New Home Construction</h4>
 								</div>
 								<div class="caption-body">
 			    					<p class="hidden-xs">
-										We have the experience, personel and resources to make the project run smoothly.<br>
+										We have the experience, personel and resources to make the project run smoothly.
 										We can ensure a job is done on time.
 									</p>
 								</div>
@@ -94,28 +88,31 @@
 					</div>
 					<div class="item">
 			  			<img src="images/lhbImages/IMG_7303-slider.jpg" alt="...">
-			  			<div class="carousel-caption">
+			  			<div class="carousel-caption col-xs-5">
 							<div class="caption">
-								<div class="caption-title">
-									<h2 class="hidden-xs">PROFESSIONAL DESIGN</h2>
+								<div class="caption-body">
+									<h4 class="hidden-xs">PROFESSIONAL DESIGN</h4>
 									<h4 class="visible-xs">Professional Design</h4>
 								</div>
 								<div class="caption-body">
-			    					<h4 class="hidden-xs">We combine quality workmanship, superior knowledge and low prices to provide you with service unmatched by our competitors.</h4>
+			    					<p class="hidden-xs">
+										We combine quality workmanship, superior knowledge and low prices to provide
+										you with service unmatched by our competitors.
+									</p>
 								</div>
 							</div>
 			  			</div>
 					</div>
 					<div class="item">
 			  			<img src="images/lhbImages/IMG_7321-slider.jpg" alt="...">
-			  			<div class="carousel-caption">
+			  			<div class="carousel-caption col-xs-5">
 							<div class="caption">
-								<div class="caption-title">
-									<h2 class="hidden-xs"><?php echo strtoupper($slide['title'])?></h2>
+								<div class="caption-body">
+									<h4 class="hidden-xs"><?php echo strtoupper($slide['title'])?></h4>
 									<h4 class="visible-xs"><?php echo $slide['title']?></h4>
 								</div>
 								<div class="caption-body">
-			    					<h4 class="hidden-xs"><?php echo $slide['body']?></h4>
+			    					<p class="hidden-xs"><?php echo $slide['body']?></p>
 								</div>
 							</div>
 			  			</div>

@@ -21,7 +21,7 @@ function setSelected() {
             }
         }
     } else {
-        document.querySelector('ul.nav > li a[href="home.php"]').parentElement().className += 'active';
+        document.querySelector('ul.nav > li a[href="home.php"]').parentElement.className += 'active';
     }
 }
 setSelected();

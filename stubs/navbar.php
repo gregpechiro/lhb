@@ -35,9 +35,9 @@
             <p class=" col-xs-9 col-sm-10 col-md-10 col-lg-10 text-center" id="randomQuote"></p>
             <p class=" col-xs-1 col-sm-1 col-md-1 col-lg-1"><i class="fa fa-quote-right"></i></p>
         </div>
-        <div class="col-lg-offset-10 col-md-offset-9 col-sm-offset-9 col-xs-offset-6">
+        <!-- <div class="col-lg-offset-10 col-md-offset-9 col-sm-offset-9 col-xs-offset-6">
             --Satisfied Customer--
-        </div>
+        </div> -->
     </div>
 
 </div>

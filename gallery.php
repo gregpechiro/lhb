@@ -118,10 +118,9 @@
 		<script src="js/nav.js" charset="utf-8"></script>
 		<script type="text/javascript">
 		var quotes = [
-			'Our design selections and the construction of the final product look beautiful.',
+			'We appreciated the ability to make adjustments to the home as we saw the progression of the build. Our design selections and the construction of the final product look beautiful.',
 			'As the build progressed, we were able to add additional items into our design that we realized made more sense as the project began to take shape.',
-			'We were kept up to date on the progress and our questions and concerns were addressed.',
-			'The craftsmen were very good, respectful and pleasant.'
+			'We\'re looking forward to closing on our new home (a week ahead of schedule) and know that we will be very happy raising our family there for many years to come!'
 		];
 		</script>
 		<script src="js/quote.js" charset="utf-8"></script>

@@ -12,7 +12,8 @@
 				<div class="col-md-3">
 					<h1 class="text-center border-bottom text-green">Why Choose Us</h1>
 					<p>
-						With over 15 years of experience and a real focus on customer satisfaction, you can rely on Lancaster Home Builders for your next project. We provide a professional construction and renovation services with a real focus on customer satisfaction.
+						With over 15 years of experience and a real focus on customer satisfaction, you can rely on Lancaster
+						Home Builders for your next project. We provide a range of sevices from professional construction to design and renovation.
 					</p>
 					<br>
 					<p><i class="fa fa-check"></i> Financial Responsibility to Our Clients</p>
@@ -20,8 +21,13 @@
 					<p><i class="fa fa-check"></i> Quality and Value to the Projects We Deliver</p>
 					<p><i class="fa fa-check"></i> Highest Standards in Cost Control</p>
 					<p><i class="fa fa-check"></i> On Time and on Budget</p>
-					<p><i class="fa fa-check"></i> Real Focus on Customer Satisfaction</p>
-					<br><br>
+					<p><i class="fa fa-check"></i> Accommodation of Unique Requests</p>
+					<p><i class="fa fa-check"></i> Only Quality Subcontractors are Utilized.</p>
+					<!-- Quality Construction at Affordable Prices -->
+					<!-- We offer clients a range of services from design through construction. -->
+					<!-- Select some of the best subcontractors in the industry. -->
+					<!-- We work with clients to accommodate client’s unique requests -->
+					<br>
 					<p>We serve the following areas: </p>
 					<ul>
 						<li>York</li>
@@ -48,7 +54,7 @@
 							<!-- <h2 class="text-underline no-margin-top hidden-xs text-green">New Homes</h2> -->
 							<p>
 								Suspendisse imperdiet nisi quam, a molestie elit tempor sit amet. Quisque a diam sit amet est accumsan venenatis in in mauris. Mauris ultrices tempus quam id mollis. Donec felis eros, dignissim sit amet cursus quis, fringilla et turpis. Maecenas eros eros, tempor ut feugiat a, ullamcorper at nisl. Etiam maximus ipsum sed vulputate sagittis. Nam varius non diam vel efficitur. Suspendisse potenti. Cras lacinia, mi eget vulputate ultrices, nulla mi bibendum velit, sed condimentum tortor ipsum a mauris.
-								<a href="documents.php">Floor Plans</a>
+								<!-- <a href="documents.php">Floor Plans</a> -->
 							</p>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -127,8 +133,7 @@
 		<script src="js/nav.js" charset="utf-8"></script>
 		<script type="text/javascript">
 		var quotes = [
-			'The craftsmen were very good, respectful and pleasant.',
-			'We were kept up to date on the progress and our questions and concerns were addressed.',
+			'The craftsmen were very good, respectful and pleasant. We were kept up to date on the progress and our questions and concerns were addressed.',
 			'As the build progressed, we were able to add additional items into our design that we realized made more sense as the project began to take shape.'
 		];
 		</script>

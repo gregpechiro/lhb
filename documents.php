@@ -9,6 +9,13 @@
 			<?php include 'stubs/navbar.php'; ?>
 
 			<h1 class="text-green text-underline">New Home Brochures</h1>
+			<div class="col-sm-12 no-padding-left">
+				<p class="col-md-8 no-padding-left">
+					Our variety of floor plans is an ideal starting point for you to design your new home. Follow them exactly
+					or throw in your own little twist to make it your own.  Every plan offers space to gather, entertain, store,
+					organize and relax. If you already have a floor plan in mind, we can accommodate that too.
+				</p>
+			</div>
 			<br>
 
             <ul class="visible-xs">
@@ -87,9 +94,9 @@
 		<script src="js/nav.js" charset="utf-8"></script>
 		<script type="text/javascript">
 		var quotes = [
-			'We recently moved into our beautiful new home built by Lancaster Home Builders.',
-			'We appreciated the ability to make adjustments to the home as we saw the progression of the build.',
-			'Our design selections and the construction of the final product look beautiful.'
+			'We recently moved into our beautiful new home... Thank you to everyone at Lancaster Home Builders. We certainly recommend Lancaster Home Builders.',
+			'We appreciated the ability to make adjustments to the home as we saw the progression of the build. Our design selections and the construction of the final product look beautiful.',
+			'As the build progressed, we were able to add additional items into our design that we realized made more sense as the project began to take shape.'
 		];
 		</script>
 		<script src="js/quote.js" charset="utf-8"></script>

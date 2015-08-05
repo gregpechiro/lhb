@@ -138,9 +138,8 @@
 		<script src="js/nav.js" charset="utf-8"></script>
 		<script type="text/javascript">
 		var quotes = [
-			'We recently moved into our beautiful new home built by Lancaster Home Builders.',
-			'We appreciated the ability to make adjustments to the home as we saw the progression of the build.',
-			'Our design selections and the construction of the final product look beautiful.'
+			'We recently moved into our beautiful new home... Thank you to everyone at Lancaster Home Builders. We certainly recommend Lancaster Home Builders.',
+			'We appreciated the ability to make adjustments to the home as we saw the progression of the build. Our design selections and the construction of the final product look beautiful.'
 		];
 		</script>
 		<script src="js/quote.js" charset="utf-8"></script>

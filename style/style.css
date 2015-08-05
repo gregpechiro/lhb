@@ -33,7 +33,7 @@ div.navbar-collapse ul.nav li>a:hover {
     text-align:;
 }
 body {
-    background-color: rgb(188, 172, 146);
+    background: radial-gradient(ellipse at center, rgba(198,186,170,1) 0%,rgba(187,169,147,1) 100%);
     color: black
 }
 .footer-line {
@@ -54,6 +54,9 @@ body {
 }
 .no-padding {
     padding-right: 0;
+}
+.no-padding-left {
+    padding-left: 0;
 }
 .footer-contact {
     text-align: right;

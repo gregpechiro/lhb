@@ -20,7 +20,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="home.php"> Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="home.php"> Home </a></li>
                         <li><a href="gallery.php"> Gallery </a></li>
                         <li><a href="about.php"> About Us </a></li>
                         <li><a href="contact.php"> Contact Us </a></li>

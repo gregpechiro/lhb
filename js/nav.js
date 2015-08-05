@@ -7,17 +7,21 @@ function getPageName() {
 }
 
 var pageName = getPageName();
-document.getElementById('pageName').innerHTML = pageName;
+document.getElementById('pageName').innerHTML = (pageName === '') ? 'Home' : pageName;
 
 function setSelected() {
-    var listItems = document.querySelectorAll('ul.nav > li');
-    var loc = window.location.href;
+    if (pageName !== '') {
+        var listItems = document.querySelectorAll('ul.nav > li');
+        var loc = window.location.href;
 
-    for (var i = 0; i < listItems.length; i++) {
-        var aLoc = listItems[i].children[0].href;
-        if (aLoc === loc) {
-            listItems[i].className += 'active';
+        for (var i = 0; i < listItems.length; i++) {
+            var aLoc = listItems[i].children[0].href;
+            if (aLoc === loc) {
+                listItems[i].className += 'active';
+            }
         }
+    } else {
+        document.querySelector('ul.nav > li a[href="home.php"]').parentElement().className += 'active';
     }
 }
 setSelected();

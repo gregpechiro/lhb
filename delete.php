@@ -15,13 +15,16 @@ if ($conn->connect_error) {
     die("connection failed: " . $conn->connect_error);
 }
 
-$updateQuery = "UPDATE images SET category='" . $_POST["category"] . "', description='" . $_POST["description"] . "' WHERE id='" . $_POST["id"] . "'";
 
-if ($conn->query($updateQuery) === TRUE) {
-    $conn->close();
-    header('Location: admin.php');
-} else {
-    echo "ERROR";
+$updateQuery = "DELETE FROM images WHERE id='" . $_POST["id"] . "'";
+
+if (unlink($_POST["source"])) {
+    if ($conn->query($updateQuery) === TRUE) {
+        $conn->close();
+        header('Location: admin.php');
+    } else {
+        echo "ERROR";
+    }
 }
 $conn->close();
 ?>

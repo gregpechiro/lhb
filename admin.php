@@ -68,7 +68,16 @@
 											</div>
 										</div>
 										<input type="hidden" name="id" id="id" value="' . $img["id"] . '">
-	    								<button class="btn btn-primary btn-block">Save</button>
+										<div class="form-group">
+											<div class="col-xs-12">
+												<button class="btn btn-primary btn-block">Save</button>
+											</div>
+										</div>
+									</form>
+									<form class="form-horizontal" action="delete.php" method="post">
+										<input type="hidden" name="source" id="source" value="' . $img["source"] . '">
+										<input type="hidden" name="id" id="id" value="' . $img["id"] . '">
+										<button class="btn btn-danger btn-block">Delete</button>
 									</form>';
 							} else {
 								echo '<form action="upload.php" method="post" class="form-horizontal" enctype="multipart/form-data">

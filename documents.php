@@ -37,7 +37,7 @@
                     <a id="brochure-1" data-title="Augusta Brochure" data-body="documents/AugustaBrochure.pdf" href="#"><img class="img-responsive" src="images/docIcons/Augusta.jpg" alt="" /></a>
                 </div>
                 <div class="col-sm-3 margin-bottom">
-                    <a id="brochure-2" data-title="Charlston Brochure" data-body="documents/CharlestonBrochure.pdf" href="#"><img class="img-responsive" src="images/docIcons/Charleston.jpg" alt="" /></a>
+                    <a id="brochure-2" data-title="Charleston Brochure" data-body="documents/CharlestonBrochure.pdf" href="#"><img class="img-responsive" src="images/docIcons/Charleston.jpg" alt="" /></a>
                 </div>
                 <div class="col-sm-3 margin-bottom">
                     <a id="brochure-3" data-title="Hampshire III Brochure" data-body="documents/HampshireIIIBrochure.pdf" href="#"><img class="img-responsive" src="images/docIcons/HampshireIII.jpg" alt="" /></a>

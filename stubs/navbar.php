@@ -1,9 +1,9 @@
 <div id="navbar" class="row no-margin">
     <!-- <h1  id="pageName" class="col-lg-3 logo text-center"></h1> -->
-    <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-        <a href="home.php"><img style="width: 250px" src="images/lhblogo.png" alt="" /></a>
+    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+        <a href="home.php"><img class="img-responsive" src="images/lhblogo.png" alt="" /></a>
     </div>
-    <div class=" col-lg-9 col-md-8 col-sm-12 col-xs-12 no-padding">
+    <div class=" col-lg-9 col-md-9 col-sm-12 col-xs-12 no-padding">
         <nav class="navbar navbar-default">
             <div class="">
                 <!-- Brand and toggle get grouped for better mobile display -->

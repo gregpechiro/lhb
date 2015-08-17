@@ -59,15 +59,15 @@
 											<label class="control-label col-xs-3">Description:</label>
 											<div class="col-xs-9">
 												<input class="form-control" type="text" name="description" id="description" value="' . $img["description"] . '">
-												</div>
-												</div>
-												<div class="form-group">
-												<label class="control-label col-xs-3">Category:</label>
-												<div class="col-xs-9">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="control-label col-xs-3">Category:</label>
+											<div class="col-xs-9">
 												<input type="text" class="form-control" name="category" id="category" value="' . $img["category"] . '">
-												</div>
-												</div>
-												<input type="hidden" name="id" id="id" value="' . $img["id"] . '">
+											</div>
+										</div>
+										<input type="hidden" name="id" id="id" value="' . $img["id"] . '">
 	    								<button class="btn btn-primary btn-block">Save</button>
 									</form>';
 							} else {
@@ -75,7 +75,7 @@
 										<div class="form-group">
 											<div class="col-xs-12">
 												<label class="btn btn-default btn-block uploader" for="file">Select File</label>
-												<input class="uploader" id="file" type="file" name="front" required>
+												<input class="uploader" id="file" type="file" name="picture" required>
 											</div>
 										</div>
 										<div class="form-group">

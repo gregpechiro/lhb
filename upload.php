@@ -13,17 +13,18 @@
 
     // check connection
     if ($conn->connect_error) {
+        echo "Error connecting to the Database";
         die("connection failed: " . $conn->connect_error);
     }
 
     $target_dir = "upload/";
-    $target_file = $target_dir . basename($_FILES["ourFile"]["name"]);
+    $target_file = $target_dir . basename($_FILES["picture"]["name"]);
     $uploaded = 1;
     $fileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
     // check if file is image
     if (isset($_POST["submit"])) {
-        $checkImg = getimagesize($_FILES["ourFile"]["tmp_name"]);
+        $checkImg = getimagesize($_FILES["picture"]["tmp_name"]);
         if ($checkImg !== false) {
             echo "File is a " . $checkImg["mime"];
             $uploaded = 1;
@@ -40,14 +41,14 @@
     }
 
     // check file size
-    if ($_FILES["ourFile"]["size"] > (2048 * 1024)) {
+    if ($_FILES["picture"]["size"] > (2048 * 1024)) {
         echo "<br>Sorry file is too large. Max file size is 2 MB";
         $uploaded = 0;
     }
 
     // check file format
     if ($fileType != "png" && $fileType != "jpg") {
-        echo "<br>Sorry only PNGs are allowed";
+        echo "<br>Sorry only PNGs and JPGs are allowed";
         $uploaded = 0;
     }
 
@@ -55,7 +56,7 @@
     if ($uploaded == 0) {
         echo "<br>Sorry file could not be uploaded";
     } else {
-        if (move_uploaded_file($_FILES["ourFile"]["tmp_name"], $target_file)) {
+        if (move_uploaded_file($_FILES["picture"]["tmp_name"], $target_file)) {
             $sql = $conn->prepare("INSERT INTO images (category, source, description) VALUES (?, ?, ?)");
             $sql->bind_param("sss", $cat, $src, $desc);
             $cat = $_POST["category"];

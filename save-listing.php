@@ -15,11 +15,14 @@ if ($conn->connect_error) {
     die("connection failed: " . $conn->connect_error);
 }
 
-$updateQuery = "UPDATE images SET category='" . $_POST["category"] . "', description='" . $_POST["description"] . "' WHERE id='" . $_POST["id"] . "'";
+$updateQuery = "UPDATE listings SET street='" . $_POST["street"] . "', city='" .
+    $_POST["city"] . "', state='" . $_POST["state"] . "', zip='" . $_POST["zip"] .
+    "', mls='" . $_POST["mls"] . "', agent='" . $_POST["agent"] . "' WHERE id='" .
+    $_POST["id"] . "'";
 
 if ($conn->query($updateQuery) === TRUE) {
     $conn->close();
-    header('Location: admin.php');
+    header('Location: all-Listings.php');
 } else {
     echo "ERROR";
 }

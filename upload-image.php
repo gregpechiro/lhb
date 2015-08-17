@@ -64,7 +64,7 @@
             $desc = $_POST["description"];
             if ($sql->execute() === TRUE) {
                 echo "New record inserted: " . $conn->insert_id;
-                header('Location: admin.php');
+                header('Location: webmaster.php');
             } else {
                 echo "error adding to database";
             }

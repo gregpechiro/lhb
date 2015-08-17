@@ -16,15 +16,13 @@ if ($conn->connect_error) {
 }
 
 
-$updateQuery = "DELETE FROM images WHERE id='" . $_POST["id"] . "'";
+$updateQuery = "DELETE FROM listings WHERE id='" . $_POST["id"] . "'";
 
-if (unlink($_POST["source"])) {
-    if ($conn->query($updateQuery) === TRUE) {
-        $conn->close();
-        header('Location: admin.php');
-    } else {
-        echo "ERROR";
-    }
+if ($conn->query($updateQuery) === TRUE) {
+    $conn->close();
+    header('Location: all-Listings.php');
+} else {
+    echo "ERROR";
 }
 $conn->close();
 ?>

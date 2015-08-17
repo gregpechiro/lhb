@@ -8,6 +8,12 @@
     border-bottom: 1px solid black;
     border-radius: 0;
 }
+
+.nav>li>a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 div.navbar-header a.navbar-brand,
 div.navbar-collapse ul.nav li>a{
     color: white;

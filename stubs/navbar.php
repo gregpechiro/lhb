@@ -20,12 +20,13 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="home.php"> Home </a></li>
-                        <li><a href="gallery.php"> Gallery </a></li>
-                        <li><a href="about.php"> About Us </a></li>
-                        <li><a href="contact.php"> Contact Us </a></li>
-                        <li><a href="services.php"> Services </a></li>
-                        <li><a href="documents.php"> Documents </a></li>
+                        <li><a href="home.php">Home</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="documents.php">Documents</a></li>
+                        <li><a href="listings.php">Listings</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

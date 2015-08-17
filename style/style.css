@@ -116,3 +116,6 @@ body {
 a {
     color: #087c4c;
 }
+.btn-dark {
+    border-color: rgba(50, 50, 50, 0.5);;
+}

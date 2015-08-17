@@ -9,10 +9,20 @@
 			<?php include 'stubs/navbar.php'; ?>
 
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-8">
-					<h1 class="text-center border-bottom text-green">Clean Design</h1>
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+					<h1 class="text-center border-bottom text-green">Affiliations</h1>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
+						<a target="_blank" href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/home-builders/nadu-construction-inc-in-lancaster-pa-70000487">
+			                <img class="bbb-logo img-responsive" src="images/bbb-logo.png" alt="" />
+			            </a>
+						<a target="_blank" href="http://www.lancasterbuilders.org/">
+			                <img class="bbb-logo img-responsive" src="images/lhbImages/bia.png" alt="" />
+			            </a>
+						<br>
+						<p>
+							Check out our <a href="gallery.php">Designs</a>
+						</p>
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
 								<img src="images/lhbImages/IMG_6263.jpg" alt="...">
@@ -33,15 +43,7 @@
 						From designing the home to the final cleaning, Lancaster Home Builders is a Full-service builder.
 					</p> -->
 					<!-- <h3 class="text-green ">Affiliations Include:</h3> -->
-					<p>
-						Affiliations Include:
-					</p>
-					<a target="_blank" href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/home-builders/nadu-construction-inc-in-lancaster-pa-70000487">
-		                <img class="bbb-logo img-responsive" src="images/bbb-logo.png" alt="" />
-		            </a>
-					<a target="_blank" href="http://www.lancasterbuilders.org/">
-		                <img class="bbb-logo img-responsive" src="images/lhbImages/bia.png" alt="" />
-		            </a>
+
 
 
 					<!-- <h1 class="text-center border-bottom text-green">Affiliations</h1>
@@ -86,6 +88,15 @@
 						Construction. His motto: “Build a Quality Home at an Affordable Price.” The name of the company has
 						since changed but the quality and affordability continue at Lancaster Home Builders.
 					</p>
+					<div class="visible-sm visible-xs text-center">
+						<h3 class="text-green">Affliations:</h3>
+						<a target="_blank" href="http://www.lancasterbuilders.org/">
+			                <img class="bbb-logo img-responsive" src="images/lhbImages/bia.png" alt="" />
+			            </a>
+						<a target="_blank" href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/home-builders/nadu-construction-inc-in-lancaster-pa-70000487">
+			                <img class="bbb-logo img-responsive" src="images/bbb-logo.png" alt="" />
+			            </a>
+					</div>
 				</div>
 			</div>
 

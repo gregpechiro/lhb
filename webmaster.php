@@ -131,20 +131,20 @@
 			</div>
 			<br><br>
 			<div class="row">
-				<div class="col-sm-4">
-					<div class="btn-group" role="group">
+				<div class="text-center">
+					Gallery Preview
+				</div>
+				<div class="">
+					<div class="btn">
 						<button class="filter btn btn-dark active" role="group" data-filter="*">Show All</button>
 						<?php
 						if ($categories->num_rows > 0) {
 							while($category = $categories->fetch_assoc()) {
-								echo '<button class="filter btn btn-dark" role="group" data-filter=".' . strtolower($category["category"]) . '">' . ucfirst($category["category"]) . '</button>';
+								echo '<button class="filter btn btn-dark" data-filter=".' . strtolower($category["category"]) . '">' . ucfirst($category["category"]) . '</button>';
 							}
 						}
 						?>
 					</div>
-				</div>
-				<div class="col-sm-4 text-center">
-					Gallery Preview
 				</div>
 			</div>
 			<br>

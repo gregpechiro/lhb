@@ -53,7 +53,7 @@
 			  	<!-- Wrapper for slides -->
 			  	<div class="carousel-inner" role="listbox">
 					<div class="item active">
-			  			<img src="images/office.jpg" alt="...">
+			  			<img src="images/lhbImages/homeSlider/office.jpg" alt="...">
 			  			<div class="carousel-caption col-xs-5">
 							<div class="caption text-center">
 								<div class="caption-body">
@@ -70,7 +70,7 @@
 			  			</div>
 					</div>
 					<div class="item">
-			  			<img src="images/lhbImages/SYP_1781-2-2.jpg" alt="...">
+			  			<img src="images/lhbImages/homeSlider/SYP_1781-2-2.jpg" alt="...">
 			  			<div class="carousel-caption col-xs-5">
 							<div class="caption text-center">
 								<div class="caption-body">
@@ -87,7 +87,7 @@
 			  			</div>
 					</div>
 					<div class="item">
-			  			<img src="images/lhbImages/IMG_7303-slider.jpg" alt="...">
+			  			<img src="images/lhbImages/homeSlider/IMG_7303-slider.jpg" alt="...">
 			  			<div class="carousel-caption col-xs-5">
 							<div class="caption text-center border-bot-green">
 								<div class="caption-body">
@@ -104,7 +104,7 @@
 			  			</div>
 					</div>
 					<div class="item">
-			  			<img src="images/lhbImages/IMG_7321-slider.jpg" alt="...">
+			  			<img src="images/lhbImages/homeSlider/IMG_7321-slider.jpg" alt="...">
 			  			<div class="carousel-caption col-xs-5">
 							<div class="caption text-center">
 								<div class="caption-body">

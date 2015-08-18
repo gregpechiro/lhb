@@ -23,10 +23,8 @@
 					<p><i class="fa fa-check"></i> On Time and on Budget</p>
 					<p><i class="fa fa-check"></i> Accommodation of Unique Requests</p>
 					<p><i class="fa fa-check"></i> Only Quality Subcontractors are Utilized.</p>
-					<!-- Quality Construction at Affordable Prices -->
-					<!-- We offer clients a range of services from design through construction. -->
-					<!-- Select some of the best subcontractors in the industry. -->
-					<!-- We work with clients to accommodate client’s unique requests -->
+					<br>
+					<p>From design to the final cleaning, Lancaster Home Builders is a Full-service builder.</p>
 					<br>
 					<p>We serve the following areas: </p>
 					<ul>
@@ -47,7 +45,7 @@
 						<div class="col-sm-4">
 							<!-- <h2 class="text-underline no-margin-top visible-xs text-center text-darkGreen">New Homes</h2> -->
 							<div class="col-sm-12 col-xs-12">
-								<img class="img-responsive border-small img-rounded" src="images/lhbImages/IMG_1280-new-homes.jpg" alt="...">
+								<img class="img-responsive border-small img-rounded" src="images/lhbImages/services/IMG_1280-new-homes.jpg" alt="...">
 							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12">
@@ -71,7 +69,7 @@
 							<div class="col-sm-4">
 								<h3 class="no-margin-top text-center text-green visible-xs">Decks</h3>
 								<div class="col-sm-12 col-xs-12">
-									<img class="img-responsive border-small img-circle" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
+									<img class="img-responsive border-small img-circle" src="images/lhbImages/services/SYP_1852-deck.jpg" alt="...">
 								</div>
 							</div>
 							<div class="col-sm-8 col-xs-12 text-center">
@@ -91,7 +89,7 @@
 							<div class="col-sm-4">
 								<h3 class="no-margin-top visible-xs text-center text-green">Nadu Excavating</h3>
 								<div class="col-sm-12 col-xs-12">
-									<img class="img-responsive border-small img-circle" src="images/image_08-excavation.jpg" alt="...">
+									<img class="img-responsive border-small img-circle" src="images/lhbImages/services/image_08-excavation.jpg" alt="...">
 								</div>
 							</div>
 							<div class="col-sm-8 col-xs-12 text-center">
@@ -106,7 +104,7 @@
 							<div class="col-sm-4">
 								<h3 class="no-margin-top text-center text-green visible-xs">M&J Plumbing</h3>
 								<div class="col-sm-12 col-xs-12">
-									<img class="img-responsive border-small img-circle" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
+									<img class="img-responsive border-small img-circle" src="images/lhbImages/services/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
 								</div>
 							</div>
 							<div class="col-sm-8 col-xs-12 text-center">

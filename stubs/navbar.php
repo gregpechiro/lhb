@@ -1,7 +1,7 @@
 <div id="navbar" class="row no-margin">
     <!-- <h1  id="pageName" class="col-lg-3 logo text-center"></h1> -->
     <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-        <a href="home.php"><img class="img-responsive" src="images/lhblogo.png" alt="" /></a>
+        <a href="home.php"><img class="img-responsive" src="images/lhbImages/lhblogo.png" alt="" /></a>
     </div>
     <div class=" col-lg-9 col-md-9 col-sm-12 col-xs-12 no-padding">
         <nav class="navbar navbar-default">
@@ -25,8 +25,8 @@
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="services.php">Services</a></li>
-                        <li><a href="documents.php">Documents</a></li>
                         <li><a href="listings.php">Listings</a></li>
+                        <li><a href="documents.php">Documents</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -36,9 +36,6 @@
             <p class=" col-xs-9 col-sm-10 col-md-10 col-lg-10 text-center" id="randomQuote"></p>
             <p class=" col-xs-1 col-sm-1 col-md-1 col-lg-1"><i class="fa fa-quote-right"></i></p>
         </div>
-        <!-- <div class="col-lg-offset-10 col-md-offset-9 col-sm-offset-9 col-xs-offset-6">
-            --Satisfied Customer--
-        </div> -->
     </div>
 
 </div>

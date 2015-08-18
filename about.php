@@ -13,11 +13,11 @@
 					<h1 class="text-center border-bottom text-green">Affiliations</h1>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
+						<a target="_blank" href="http://www.lancasterbuilders.org/">
+			                <img class="bbb-logo img-responsive" src="images/bia.png" alt="" />
+			            </a>
 						<a target="_blank" href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/home-builders/nadu-construction-inc-in-lancaster-pa-70000487">
 			                <img class="bbb-logo img-responsive" src="images/bbb-logo.png" alt="" />
-			            </a>
-						<a target="_blank" href="http://www.lancasterbuilders.org/">
-			                <img class="bbb-logo img-responsive" src="images/lhbImages/bia.png" alt="" />
 			            </a>
 						<br>
 						<p>
@@ -38,27 +38,6 @@
 							</div>
 						</div>
 					</div>
-					<br>
-					<!-- <p class="text-center">
-						From designing the home to the final cleaning, Lancaster Home Builders is a Full-service builder.
-					</p> -->
-					<!-- <h3 class="text-green ">Affiliations Include:</h3> -->
-
-
-
-					<!-- <h1 class="text-center border-bottom text-green">Affiliations</h1>
-					<br>
-					<a target="_blank" href="http://www.lancasterbuilders.org/">
-		                <img class="bbb-logo img-responsive" src="images/lhbImages/bia.png" alt="" />
-		            </a>
-					<br>
-					<a target="_blank" href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/home-builders/nadu-construction-inc-in-lancaster-pa-70000487">
-		                <img class="bbb-logo img-responsive" src="images/bbb-logo.png" alt="" />
-		            </a>
-					<br>
-					<p>
-						Lancaster Home Builders maintains an A+ rating with the BBB.
-					</p> -->
 				</div>
 				<div class="col-lg-9 col-md-8 col-sm-12">
 					<h2 class="text-center text-green text-underline">We Are Lancaster Home Builders</h2>

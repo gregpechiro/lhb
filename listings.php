@@ -96,9 +96,8 @@
                     </table>
 				</div>
 			</div>
-		</div>
-
 		<?php include 'stubs/footer.php'; ?>
+		</div>
 
 		<script src="//code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

@@ -14,7 +14,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="home.php"><div id="pageName"></div></a>
+                    <a style="padding-right:0" class="navbar-brand" href="home.php"><div id="pageName"></div></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,7 +26,7 @@
                         <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="services.php">Services</a></li>
                         <li><a href="listings.php">Listings</a></li>
-                        <li><a href="documents.php">Documents</a></li>
+                        <li><a href="floor-plans.php">Floor Plans</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

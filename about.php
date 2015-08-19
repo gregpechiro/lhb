@@ -10,33 +10,26 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-					<h1 class="text-center border-bottom text-green">Affiliations</h1>
+					<h1 class="text-center border-bottom text-green no-margin-top">Affiliations</h1>
 					<br>
 					<a target="_blank" href="http://www.lancasterbuilders.org/">
-			            <img class="bbb-logo img-responsive" src="images/bia.png" alt="" />
+			            <img class="img-responsive" src="images/bia.png" alt="" />
 			        </a>
+					<br>
 					<br>
 					<a target="_blank" href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/home-builders/nadu-construction-inc-in-lancaster-pa-70000487">
-			            <img class="bbb-logo img-responsive" src="images/bbb-logo.png" alt="" />
+			            <img style="float:left" class="img-responsive" src="images/bbb.png" alt="" />
+						<img style="float:right" src="images/a-plus.png" alt="" />
 			        </a>
-					<br>
 				</div>
-				<div class="col-lg-9 col-md-8 col-sm-12">
-					<h2 class="text-center text-green text-underline">We Are Lancaster Home Builders</h2>
+				<div class="col-lg-9 col-md-9 col-sm-12">
+					<h2 class="text-center text-green text-underline no-margin-top">New Home Construction</h2>
 					<p class="text-center">
 						The Lancaster Home Builders team works with our clients from assisting in the design of the home to
 						ensure a positive floor plan to helping with the selection of the interior design and colors.  This process
 						starts with listening to YOU and the needs and desires you have for your new home. We are here to help
 						you understand what you’re building and then pull in our valued tradesmen to make it happen.
 					</p>
-					<div class="text-center">
-						<h3 class="text-green">Our Mission:</h3>
-						<p class="">At Lancaster Home Builders, our goal is simple. We are committed to providing you with remarkable
-							custom design and quality construction – regardless of your budget. We consider our build process to be the
-							most valuable and efficient way to accomplish this task. No matter the size or complexity of your future
-							home or project, we are here to serve you.
-						</p>
-					</div>
 					<h3 class="text-green text-center">Background:</h3>
 					<p class="text-center">
 						From the age of six when Joe Nadu received his first tool box at Christmas, he knew he wanted to be a builder.
@@ -49,13 +42,21 @@
 						Construction. His motto: “Build a Quality Home at an Affordable Price.” The name of the company has
 						since changed but the quality and affordability continue at Lancaster Home Builders.
 					</p>
+					<div class="text-center">
+						<h3 class="text-green">Our Mission:</h3>
+						<p class="">At Lancaster Home Builders, our goal is simple. We are committed to providing you with remarkable
+							custom design and quality construction – regardless of your budget. We consider our build process to be the
+							most valuable and efficient way to accomplish this task. No matter the size or complexity of your future
+							home or project, we are here to serve you.
+						</p>
+					</div>
 					<div class="visible-sm visible-xs text-center">
 						<h3 class="text-green">Affliations:</h3>
 						<a target="_blank" href="http://www.lancasterbuilders.org/">
-			                <img class="bbb-logo img-responsive" src="images/lhbImages/bia.png" alt="" />
+			                <img class="logo logo-center img-responsive text-center" src="images/bia.png" alt="" />
 			            </a>
 						<a target="_blank" href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/home-builders/nadu-construction-inc-in-lancaster-pa-70000487">
-			                <img class="bbb-logo img-responsive" src="images/bbb-logo.png" alt="" />
+			                <img class="logo logo-center img-responsive text-center" src="images/bbb.png" alt="" />
 			            </a>
 					</div>
 				</div>

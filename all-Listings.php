@@ -138,7 +138,7 @@
                     <div class="panel-primary">
                         <div class="panel-heading">All Listings</div>
                         <div class="table-responsive">
-                            <table class="table" style="background: white;">
+                            <table class="table table-stripped table-bordered" style="background: white;">
                                 <thead>
                                     <tr>
                                         <th>Address</th>

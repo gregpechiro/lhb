@@ -8,14 +8,14 @@
 		<div id="container" class="container">
 			<?php include 'stubs/navbar.php'; ?>
 
-			<h1 class="text-green text-underline">New Home Brochures</h1>
-			<div class="col-sm-12 no-padding-left">
+			<h2 class="text-green text-underline text-center">New Home Brochures</h2>
+			<!-- <div class="col-sm-12 no-padding-left">
 				<p class="col-md-8 no-padding-left">
 					Our variety of floor plans is an ideal starting point for you to design your new home. Follow them exactly
 					or throw in your own little twist to make it your own.  Every plan offers space to gather, entertain, store,
 					organize and relax. If you already have a floor plan in mind, we can accommodate that too.
 				</p>
-			</div>
+			</div> -->
 			<br>
 
             <ul class="visible-xs">

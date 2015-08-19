@@ -10,81 +10,96 @@
 
 			<div class="row">
 				<div class="col-md-3">
-					<h1 class="text-center border-bottom text-green">Why Choose Us</h1>
+					<h1 class="no-margin-top text-center border-bottom text-green">Why Choose Us</h1>
 					<p>
 						With over 15 years of experience and a real focus on customer satisfaction, you can rely on Lancaster
 						Home Builders for your next project. We provide a range of sevices from professional construction to design and renovation.
 					</p>
 					<br>
-					<p><i class="fa fa-check"></i> Financial Responsibility to Our Clients</p>
-					<p><i class="fa fa-check"></i> Superior Quality and Craftsmanship</p>
-					<p><i class="fa fa-check"></i> Quality and Value to the Projects We Deliver</p>
-					<p><i class="fa fa-check"></i> Highest Standards in Cost Control</p>
-					<p><i class="fa fa-check"></i> On Time and on Budget</p>
-					<p><i class="fa fa-check"></i> Accommodation of Unique Requests</p>
-					<p><i class="fa fa-check"></i> Only Quality Subcontractors are Utilized.</p>
-					<br>
-					<p>From design to the final cleaning, Lancaster Home Builders is a Full-service builder.</p>
-					<br>
-					<p>We serve the following areas: </p>
-					<ul>
-						<li>York</li>
-						<li>Chester</li>
-						<li>Lancaster</li>
-						<li>Dauphin</li>
-						<li>Reading</li>
-					</ul>
-					<h1 class="text-center border-bottom visible-xs visible-sm text-green">What We Offer</h1>
+					<div class="hidden-sm">
+						<p><i class="fa fa-check"></i> Financial Responsibility to Our Clients</p>
+						<p><i class="fa fa-check"></i> Superior Quality and Craftsmanship</p>
+						<p><i class="fa fa-check"></i> Quality and Value to the Projects We Deliver</p>
+						<p><i class="fa fa-check"></i> Highest Standards in Cost Control</p>
+						<p><i class="fa fa-check"></i> On Time and on Budget</p>
+						<p><i class="fa fa-check"></i> Accommodation of Unique Requests</p>
+						<p><i class="fa fa-check"></i> Only Quality Subcontractors are Utilized.</p>
+						<br>
+						<p>From design to the final cleaning, Lancaster Home Builders is a Full-service builder.</p>
+						<br>
+						<p>We serve the following areas: </p>
+						<ul>
+							<li>York</li>
+							<li>Chester</li>
+							<li>Lancaster</li>
+							<li>Dauphin</li>
+							<li>Reading</li>
+						</ul>
+					</div>
+					<div class="visible-sm">
+						<div class="col-sm-6">
+							<p><i class="fa fa-check"></i> Financial Responsibility to Our Clients</p>
+							<p><i class="fa fa-check"></i> Superior Quality and Craftsmanship</p>
+							<p><i class="fa fa-check"></i> Quality and Value to the Projects We Deliver</p>
+							<p><i class="fa fa-check"></i> Highest Standards in Cost Control</p>
+							<p><i class="fa fa-check"></i> On Time and on Budget</p>
+							<p><i class="fa fa-check"></i> Accommodation of Unique Requests</p>
+							<p><i class="fa fa-check"></i> Only Quality Subcontractors are Utilized.</p>
+						</div>
+						<div class="col-sm-6">
+							<p>From design to the final cleaning, Lancaster Home Builders is a Full-service builder.</p>
+							<br>
+							<p>We serve the following areas: </p>
+							<ul>
+								<li>York</li>
+								<li>Chester</li>
+								<li>Lancaster</li>
+								<li>Dauphin</li>
+								<li>Reading</li>
+							</ul>
+						</div>
+					</div>
 				</div>
+				<!-- <div class="col-xs-12"> -->
+					<div class="col-xs-12 border-bottom visible-xs visible-sm"></div>
+
+				<!-- </div> -->
 				<div class="col-md-9 col-xs-12">
 					<div class="row">
-						<div class="col-xs-12 text-center">
+						<!-- <div class="col-xs-offset-3 col-xs-9 text-center">
 							<h1 class="text-underline no-margin-top text-green">New Home Construction</h1>
 						</div>
-						<br><br><br>
+						<br><br><br> -->
 						<div class="col-sm-4">
-							<!-- <h2 class="text-underline no-margin-top visible-xs text-center text-darkGreen">New Homes</h2> -->
+							<h2 class="visible-xs margin-bottom text-underline no-margin-top text-green text-center">New Home Construction</h2>
 							<div class="col-sm-12 col-xs-12">
-								<img class="img-responsive border-small img-rounded" src="images/lhbImages/services/IMG_1280-new-homes.jpg" alt="...">
+								<img style="margin-top: 45px" class="hidden-xs img-responsive border-small img-rounded" src="images/lhbImages/services/IMG_1280-new-homes.jpg" alt="...">
+								<img class="visible-xs img-responsive border-small img-rounded" src="images/lhbImages/services/IMG_1280-new-homes.jpg" alt="...">
 							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12">
-							<!-- <h2 class="text-underline no-margin-top hidden-xs text-green">New Homes</h2> -->
+							<!-- <h2 class="text-underline no-margin-top hidden-xs text-green text-center">New Homes</h2> -->
+							<h2 class="hidden-xs text-underline no-margin-top text-green text-center">New Home Construction</h2>
 							<p>
-								Suspendisse imperdiet nisi quam, a molestie elit tempor sit amet. Quisque a diam sit amet est accumsan venenatis in in mauris. Mauris ultrices tempus quam id mollis. Donec felis eros, dignissim sit amet cursus quis, fringilla et turpis. Maecenas eros eros, tempor ut feugiat a, ullamcorper at nisl. Etiam maximus ipsum sed vulputate sagittis. Nam varius non diam vel efficitur. Suspendisse potenti. Cras lacinia, mi eget vulputate ultrices, nulla mi bibendum velit, sed condimentum tortor ipsum a mauris.
-								<!-- <a href="documents.php">Floor Plans</a> -->
+								The Lancaster Home Builders team works with our clients from assisting in the design of the home to
+								ensure a positive floor plan to helping with the selection of the interior design and colors.  This process
+								starts with listening to YOU and the needs and desires you have for your new home. We are here to help
+								you understand what you’re building and then pull in our valued tradesmen to make it happen.
 							</p>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Our variety of floor plans is an ideal starting point for you to design your new home. Follow them exactly
+								or throw in your own little twist to make it your own.  Every plan offers space to gather, entertain, store,
+								organize and relax. If you already have a floor plan in mind, we can accommodate that too.
+							</p>
+							<p>
+								<strong>Check out our <a href="floor-plans.php">Floor Plans</a> and our <a href="listings.php">Listings</a>!</strong>
 							</p>
 						</div>
 					</div>
+					<br>
 					<div class="border-bottom"></div>
 					<br>
 					<div class="col-xs-10 col-xs-offset-1">
-						<!-- <h2 class="text-center text-underline">
-							Other Services Include
-						</h2> -->
-						<div class="row">
-							<div class="col-sm-4">
-								<h3 class="no-margin-top text-center text-green visible-xs">Decks</h3>
-								<div class="col-sm-12 col-xs-12">
-									<img class="img-responsive border-small img-circle" src="images/lhbImages/services/SYP_1852-deck.jpg" alt="...">
-								</div>
-							</div>
-							<div class="col-sm-8 col-xs-12 text-center">
-								<h3 class="no-margin-top hidden-xs text-green">Decks</h3>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at commodo lacus. In egestas iaculis felis, eget volutpat arcu condimentum non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla non nulla ac sapien pretium tincidunt. Duis pharetra augue eu nunc feugiat faucibus. Sed vel turpis eget tellus faucibus rhoncus.
-								</p>
-							</div>
-							<!-- <div class="col-sm-4  hidden-xs">
-								<div class="col-sm-12 col-xs-12">
-									<img class="img-responsive border-small img-circle" src="images/lhbImages/SYP_1852-deck.jpg" alt="...">
-								</div>
-							</div> -->
-						</div>
-						<br>
 						<div class="row">
 							<div class="col-sm-4">
 								<h3 class="no-margin-top visible-xs text-center text-green">Nadu Excavating</h3>
@@ -104,7 +119,7 @@
 							<div class="col-sm-4">
 								<h3 class="no-margin-top text-center text-green visible-xs">M&J Plumbing</h3>
 								<div class="col-sm-12 col-xs-12">
-									<img class="img-responsive border-small img-circle" src="images/lhbImages/services/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
+									<img class="img-responsive border-small img-circle" src="images/lhbImages/services/image_05.jpg" alt="...">
 								</div>
 							</div>
 							<div class="col-sm-8 col-xs-12 text-center">

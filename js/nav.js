@@ -2,7 +2,15 @@ function getPageName() {
     var page = window.location.pathname.split('/');
     page = page[page.length - 1];
     page = page.split('.')[0];
-    page = page.charAt(0).toUpperCase() + page.substring(1,page.length);
+    if (page.indexOf('-') > 0) {
+        pageList = page.split('-');
+        for(i = 0; i < pageList.length; i++) {
+            pageList[i] = pageList[i].charAt(0).toUpperCase() + pageList[i].substring(1,pageList[i].length);
+        }
+        page = pageList.join(' ');
+    } else {
+        page = page.charAt(0).toUpperCase() + page.substring(1,page.length);
+    }
     return page;
 }
 

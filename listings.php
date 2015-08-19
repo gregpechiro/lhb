@@ -42,26 +42,35 @@
 		<div class="container">
 			<?php include 'stubs/navbar.php'; ?>
 			<div class="row">
-				<div class="col-lg-3">
-					<h1 class="text-center border-bottom text-green">New Homes</h1>
+				<div class="col-lg-3 col-md-4 col-md-offset-0 hidden-sm hidden-xs">
+					<h1 class="text-center border-bottom text-green no-margin-top">New Homes</h1>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
+								<img src="images/lhbImages/aboutSlider/IMG_6437.jpg" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/lhbImages/aboutSlider/IMG_1280.jpg" alt="...">
+							</div>
+							<div class="item">
 								<img src="images/lhbImages/aboutSlider/IMG_6263.jpg" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/lhbImages/aboutSlider/IMG_2108-Edit.jpg" alt="...">
 							</div>
 							<div class="item">
 								<img src="images/lhbImages/aboutSlider/IMG_6290.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/lhbImages/aboutSlider/IMG_6305.jpg" alt="...">
+								<img src="images/lhbImages/aboutSlider/185Woodsview.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/lhbImages/aboutSlider/IMG_6362.jpg" alt="...">
+								<img src="images/lhbImages/aboutSlider/IMG_3708.jpg" alt="...">
 							</div>
 						</div>
 					</div>
 				</div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 col-md-8">
 					<!-- <div class="panel panel-default">
 						<div class="panel-heading">
 							All Listings

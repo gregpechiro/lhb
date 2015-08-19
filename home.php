@@ -54,7 +54,7 @@
 			  	<div class="carousel-inner" role="listbox">
 					<div class="item active">
 			  			<img src="images/lhbImages/homeSlider/office.jpg" alt="...">
-			  			<div class="carousel-caption col-xs-5">
+			  			<div style="top:0px" class="carousel-caption col-xs-offset-7 col-xs-5">
 							<div class="caption text-center">
 								<div class="caption-body">
 									<h4 class="hidden-xs border-bot-green">LANCASTER HOME BUILDERS</h4>
@@ -71,7 +71,7 @@
 					</div>
 					<div class="item">
 			  			<img src="images/lhbImages/homeSlider/SYP_1781-2-2.jpg" alt="...">
-			  			<div class="carousel-caption col-xs-5">
+			  			<div style="top:0px" class="carousel-caption col-xs-offset-7 col-xs-5">
 							<div class="caption text-center">
 								<div class="caption-body">
 									<h4 class="hidden-xs border-bot-green">NEW HOME CONSTRUCTION</h4>
@@ -88,7 +88,7 @@
 					</div>
 					<div class="item">
 			  			<img src="images/lhbImages/homeSlider/IMG_7303-slider.jpg" alt="...">
-			  			<div class="carousel-caption col-xs-5">
+			  			<div style="top:0px" class="carousel-caption col-xs-offset-7 col-xs-5">
 							<div class="caption text-center border-bot-green">
 								<div class="caption-body">
 									<h4 class="hidden-xs border-bot-green">PROFESSIONAL DESIGN</h4>
@@ -105,7 +105,7 @@
 					</div>
 					<div class="item">
 			  			<img src="images/lhbImages/homeSlider/IMG_7321-slider.jpg" alt="...">
-			  			<div class="carousel-caption col-xs-5">
+			  			<div style="top:0px" class="carousel-caption col-xs-offset-7 col-xs-5">
 							<div class="caption text-center">
 								<div class="caption-body">
 									<h4 class="hidden-xs border-bot-green"><?php echo strtoupper($slide['title'])?></h4>

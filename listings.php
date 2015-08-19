@@ -85,7 +85,7 @@
             		    		if ($listings->num_rows > 0) {
             		        		while($listing = $listings->fetch_assoc()) {
             			    		echo '<tr>
-            			            		<td>' . $listing["street"] . ' ' . $listing["city"] . ', ' . $listing["state"] . ' ' . $listing["zip"] . '</td>
+											<td>' . $listing["street"] . ' ' . $listing["city"] . ', ' . $listing["state"] . ' ' . $listing["zip"] . '</td>
             			            		<td>' . $listing["mls"] . '</td>
                                     		<td>' . $listing["agent"] . '</td>
                                 		</tr>';

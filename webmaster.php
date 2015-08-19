@@ -134,17 +134,15 @@
 				<div class="text-center">
 					Gallery Preview
 				</div>
-				<div class="">
-					<div class="btn">
-						<button class="filter btn btn-dark active" role="group" data-filter="*">Show All</button>
-						<?php
-						if ($categories->num_rows > 0) {
-							while($category = $categories->fetch_assoc()) {
-								echo '<button class="filter btn btn-dark" data-filter=".' . strtolower($category["category"]) . '">' . ucfirst($category["category"]) . '</button>';
-							}
+				<div class="btn">
+					<button style="margin-bottom:5px" class="filter btn btn-dark active" data-filter="*">Show All</button>
+					<?php
+					if ($categories->num_rows > 0) {
+						while($category = $categories->fetch_assoc()) {
+							echo '<button style="margin-right:4px;margin-bottom:5px;" class="filter btn btn-dark" data-filter=".' . strtolower($category["category"]) . '">' . ucfirst($category["category"]) . '</button>';
 						}
-						?>
-					</div>
+					}
+					?>
 				</div>
 			</div>
 			<br>

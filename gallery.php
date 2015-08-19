@@ -37,14 +37,14 @@
 
 				$conn->close();
 				?>
-				<div class="col-xs-3 col-lg-1 col-md-1 col-sm-2">
-					<button class="filter btn btn-dark active" data-filter="*">Show All</button>
-				</div>
-				<div class="col-xs-9 col-lg-11 col-md-11 col-sm-10">
+				<div class="col-xs-12">
+					<button style="margin-bottom:5px" class="filter btn btn-dark active" data-filter="*">Show All</button>
+				<!-- </div>
+				<div class="col-xs-9 col-lg-11 col-md-11 col-sm-10"> -->
 					<?php
 					if ($categories->num_rows > 0) {
 						while($category = $categories->fetch_assoc()) {
-							echo '<button class="filter btn btn-dark" data-filter=".' . strtolower($category["category"]) . '">' . ucfirst($category["category"]) . '</button>';
+							echo '<button style="margin-right:4px;margin-bottom:5px;" class="filter btn btn-dark" data-filter=".' . strtolower($category["category"]) . '">' . ucfirst($category["category"]) . '</button>';
 						}
 					}
 					?>

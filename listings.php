@@ -43,10 +43,23 @@
 			<?php include 'stubs/navbar.php'; ?>
 			<div class="row">
 				<div class="col-lg-3">
-					<h1 class="text-center border-bottom text-green">Our Listings</h1>
-					<p>
-						Lancaster Home Builders works with the top realters in the area to bring you the best buying expericance possible.
-					</p>
+					<h1 class="text-center border-bottom text-green">New Homes</h1>
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="images/lhbImages/aboutSlider/IMG_6263.jpg" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/lhbImages/aboutSlider/IMG_6290.jpg" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/lhbImages/aboutSlider/IMG_6305.jpg" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/lhbImages/aboutSlider/IMG_6362.jpg" alt="...">
+							</div>
+						</div>
+					</div>
 				</div>
                 <div class="col-lg-9">
 					<!-- <div class="panel panel-default">

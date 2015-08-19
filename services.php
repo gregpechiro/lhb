@@ -60,16 +60,11 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-xs-12"> -->
-					<div class="col-xs-12 border-bottom visible-xs visible-sm"></div>
 
-				<!-- </div> -->
+				<div class="col-xs-12 border-bottom visible-xs visible-sm"></div>
+
 				<div class="col-md-9 col-xs-12">
 					<div class="row">
-						<!-- <div class="col-xs-offset-3 col-xs-9 text-center">
-							<h1 class="text-underline no-margin-top text-green">New Home Construction</h1>
-						</div>
-						<br><br><br> -->
 						<div class="col-sm-4">
 							<h2 class="visible-xs margin-bottom text-underline no-margin-top text-green text-center">New Home Construction</h2>
 							<div class="col-sm-12 col-xs-12">
@@ -78,7 +73,6 @@
 							</div>
 						</div>
 						<div class="col-sm-8 col-xs-12">
-							<!-- <h2 class="text-underline no-margin-top hidden-xs text-green text-center">New Homes</h2> -->
 							<h2 class="hidden-xs text-underline no-margin-top text-green text-center">New Home Construction</h2>
 							<p>
 								The Lancaster Home Builders team works with our clients from assisting in the design of the home to
@@ -128,11 +122,6 @@
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at commodo lacus. In egestas iaculis felis, eget volutpat arcu condimentum non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla non nulla ac sapien pretium tincidunt. Duis pharetra augue eu nunc feugiat faucibus. Sed vel turpis eget tellus faucibus rhoncus.
 								</p>
 							</div>
-							<!-- <div class="col-sm-4 hidden-xs">
-								<div class="col-sm-12 col-xs-12">
-									<img class="img-responsive border-small img-circle" src="images/lhbImages/Shower Faucet & 2nd sprayer-plumbing.JPG" alt="...">
-								</div>
-							</div> -->
 						</div>
 					</div>
 				</div>

@@ -129,7 +129,6 @@
 					<span class="sr-only">Next</span>
 			  	</a>
 			</div>
-			<!-- <link rel="import" href="stubs/footer.html"> -->
 			<?php include 'stubs/footer.php'; ?>
 		</div>
 

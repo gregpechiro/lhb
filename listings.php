@@ -47,61 +47,54 @@
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
-								<img src="images/lhbImages/aboutSlider/IMG_6437.jpg" alt="...">
+								<img src="images/lhbImages/listingsSlider/IMG_6437.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/lhbImages/aboutSlider/IMG_1280.jpg" alt="...">
+								<img src="images/lhbImages/listingsSlider/IMG_1280.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/lhbImages/aboutSlider/IMG_6263.jpg" alt="...">
+								<img src="images/lhbImages/listingsSlider/IMG_6263.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/lhbImages/aboutSlider/IMG_2108-Edit.jpg" alt="...">
+								<img src="images/lhbImages/listingsSlider/IMG_2108-Edit.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/lhbImages/aboutSlider/IMG_6290.jpg" alt="...">
+								<img src="images/lhbImages/listingsSlider/IMG_6290.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/lhbImages/aboutSlider/185Woodsview.jpg" alt="...">
+								<img src="images/lhbImages/listingsSlider/185Woodsview.jpg" alt="...">
 							</div>
 							<div class="item">
-								<img src="images/lhbImages/aboutSlider/IMG_3708.jpg" alt="...">
+								<img src="images/lhbImages/listingsSlider/IMG_3708.jpg" alt="...">
 							</div>
 						</div>
 					</div>
 				</div>
                 <div class="col-lg-9 col-md-8">
-					<!-- <div class="panel panel-default">
-						<div class="panel-heading">
-							All Listings
-						</div>
-						<div class="panel-body"> -->
+                    <table id="listings" class="table table-striped table-bordered" style="background-color: white">
+                    	<thead>
+                    		<tr>
+                        		<th>Address</th>
+                        		<th>MLS #</th>
+                        		<th>Agent</th>
+                    		</tr>
+                    	</thead>
+                    	<tbody>
 
-                    		<table id="listings" class="table table-striped table-bordered" style="background-color: white">
-                        		<thead>
-                            		<tr>
-                                		<th>Address</th>
-                                		<th>MLS #</th>
-                                		<th>Agent</th>
-                            		</tr>
-                        		</thead>
-                        		<tbody>
-
-                            		<?php
-            			        		if ($listings->num_rows > 0) {
-            				        		while($listing = $listings->fetch_assoc()) {
-            					    		echo '<tr>
-            					            		<td>' . $listing["street"] . ' ' . $listing["city"] . ', ' . $listing["state"] . ' ' . $listing["zip"] . '</td>
-            					            		<td>' . $listing["mls"] . '</td>
-                                            		<td>' . $listing["agent"] . '</td>
-                                        		</tr>';
-            				        		}
-            			        		}
-            			    		?>
-                        		</tbody>
-                    		</table>
-						<!-- </div>
-					</div> -->
+                    		<?php
+            		    		if ($listings->num_rows > 0) {
+            		        		while($listing = $listings->fetch_assoc()) {
+            			    		echo '<tr>
+            			            		<td>' . $listing["street"] . ' ' . $listing["city"] . ', ' . $listing["state"] . ' ' . $listing["zip"] . '</td>
+            			            		<td>' . $listing["mls"] . '</td>
+                                    		<td>' . $listing["agent"] . '</td>
+                                		</tr>';
+            		        		}
+            		    		}
+            				?>
+                    	</tbody>
+                    </table>
+				</div>
 			</div>
 		</div>
 

@@ -59,9 +59,9 @@
 					<?php
 					if ($images->num_rows > 0) {
 						while($image = $images->fetch_assoc()) {
-							echo '<div class="col-lg-3 item ' . strtolower($image["category"]) . '">
+							echo '<div class="col-lg-3 col-md-3 col-sm-4 item ' . strtolower($image["category"]) . '">
 									<a href="' . $image["source"] . '" id="' . $image["id"] . '" title="' . $image["description"] . '" data-gallery>
-										<img style="margin-bottom:5px" class="img-responsive" src="' . $image["source"] . '" alt="img">
+										<img style="margin-bottom:10px" class="img-responsive" src="' . $image["source"] . '" alt="img">
 									</a>
 								</div>';
 						}

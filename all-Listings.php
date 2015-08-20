@@ -32,12 +32,12 @@
 
 		$conn->close();
 		?>
-		<div class="container">
+		<div class="container-fluid">
 			<?php include 'stubs/adminNav.php'; ?>
 			<div class="row">
-				<div class="col-lg-4 text-black">
-					<div class="panel panel-primary">
-						<div class="panel-heading">Gallery</div>
+				<div class="col-md-4 text-black">
+					<div style="border:1px solid #532d3a" class="panel">
+						<div style="background-color:#532d3a; color:white;" class="panel-heading">Gallery</div>
 						<div class="panel-body">
 							<?php
 							if (isset($_GET["id"])) {
@@ -127,18 +127,18 @@
 												<input type="text" class="form-control" name="agent" id="agent">
 											</div>
 										</div>
-										<button class="btn btn-primary btn-block">Save</button>
+										<button class="btn btn-dark btn-block">Save</button>
 									</form>';
 							}
 							?>
 						</div>
 					</div>
 				</div>
-                <div class="col-lg-8">
-                    <div class="panel-primary">
-                        <div class="panel-heading">All Listings</div>
+                <div class="col-md-8">
+                    <div style="border:1px solid #532d3a" class="panel">
+                        <div style="background-color:#532d3a; color:white;" class="panel-heading">All Listings</div>
                         <div class="table-responsive">
-                            <table class="table table-stripped table-bordered" style="background: white;">
+                            <table class="table table-striped table-bordered" style="background: white;">
                                 <thead>
                                     <tr>
                                         <th>Address</th>
@@ -156,7 +156,7 @@
             							            <td>' . $listing["street"] . ' ' . $listing["city"] . ', ' . $listing["state"] . ' ' . $listing["zip"] . '</td>
             							            <td>' . $listing["mls"] . '</td>
                                                     <td>' . $listing["agent"] . '</td>
-                                                    <td><a href="all-Listings.php?id=' . $listing["id"] . '" class="btn btn-default btn-sm">Edit</a></td>
+                                                    <td><a href="all-Listings.php?id=' . $listing["id"] . '" class="btn btn-dark btn-sm">Edit</a></td>
                                                 </tr>';
             						        }
             					        }

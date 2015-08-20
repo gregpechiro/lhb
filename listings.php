@@ -114,7 +114,9 @@
 		<script src="js/quote.js" charset="utf-8"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('#listings').DataTable();
+				$('#listings').DataTable({
+					lengthMenu:[5,10,20]
+				});
 			});
 		</script>
     </body>

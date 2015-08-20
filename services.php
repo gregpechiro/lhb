@@ -15,7 +15,7 @@
 						With over 15 years of experience and a real focus on customer satisfaction, you can rely on Lancaster
 						Home Builders for your next project. We provide a range of sevices from professional construction to design and renovation.
 					</p>
-					<br>
+					<br class="hidden-lg hidden-md">
 					<div class="hidden-sm">
 						<p><i class="fa fa-check"></i> Financial Responsibility to Our Clients</p>
 						<p><i class="fa fa-check"></i> Superior Quality and Craftsmanship</p>
@@ -24,9 +24,9 @@
 						<p><i class="fa fa-check"></i> On Time and on Budget</p>
 						<p><i class="fa fa-check"></i> Accommodation of Unique Requests</p>
 						<p><i class="fa fa-check"></i> Only Quality Subcontractors are Utilized.</p>
-						<br>
-						<p>From design to the final cleaning, Lancaster Home Builders is a Full-service builder.</p>
-						<br>
+						<br class="hidden-md">
+						<p class="hidden-md">From design to the final cleaning, Lancaster Home Builders is a Full-service builder.</p>
+						<br class="hidden-md">
 						<p>We serve the following areas: </p>
 						<ul>
 							<li>York</li>

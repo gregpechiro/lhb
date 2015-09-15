@@ -1,5 +1,4 @@
 <div id="navbar" class="row no-margin">
-    <!-- <h1  id="pageName" class="col-lg-3 logo text-center"></h1> -->
     <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
         <a href="home.php"><img class="img-responsive" src="images/lhbImages/lhblogo.png" alt="" /></a>
     </div>

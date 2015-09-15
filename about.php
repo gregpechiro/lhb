@@ -31,21 +31,22 @@
 						process.
 					</p>
 					<p class="text-center">
-						We are a full-service builder from designing the home to the final cleaning before settlement.
-						Once you’ve chosen how you would like your home to look we bring in the best subcontractors
+						We are a full-service builder; from designing the home to the final cleaning before settlement,
+						Lancaster Home Builders will serve you.
+						Once you’ve chosen how you would like your home to look, we bring in the best subcontractors
 						in the industry to make it happen.
 					</p>
 					<h3 class="text-green text-center">Background:</h3>
 					<p class="text-center">
 						From the age of six when Joe Nadu received his first tool box at Christmas, he knew he wanted to be a builder.
-						Joe has a passion for home building and because of this he keeps actively and personally involved
+						Joe has a passion for home building, and because of this, he keeps actively and personally involved
 						throughout the home building process. He has surrounded himself with a chosen team of professionals
 						who share his same commitment to quality.
 					</p>
 					<p class="text-center">
 						Joe has been in the construction field since 1982 when he went into business for himself as Nadu
 						Construction. His motto: “Build a Quality Home at an Affordable Price.” The name of the company has
-						since changed but the quality and affordability continue at Lancaster Home Builders.
+						since changed, but the quality and affordability continue at Lancaster Home Builders.
 					</p>
 					<div class="text-center">
 						<h3 class="text-green">Our Mission:</h3>
@@ -75,10 +76,10 @@
 		<script src="js/nav.js" charset="utf-8"></script>
 		<script type="text/javascript">
 		var quotes = [
-			'Joe Nadu listened to our requirements and his architect designed a home that we are now truly enjoying. The craftsmen were very good, respectful and pleasant.',
+			'Joe Nadu listened to our requirements, and his architect designed a home that we are now truly enjoying. The craftsmen were very good, respectful and pleasant.',
 			'Michele Wenger was wonderful at helping us get started with our selections. She coordinated everything between us and the various vendors.',
 			'Kimberly Gribbin was very knowledgeable on decorating. She gave us many excellent ideas for making our home look beautiful; inside and out.',
-			'We had a good rapport with Mike Way throughout the building process. Jeff Harmes was excellent to work with on our electrical requirements. Likewaise Craig Scheirer at Cloister Cabinetry.'
+			'We had a good rapport with Mike Way throughout the building process. Jeff Harmes was excellent to work with on our electrical requirements. Likewise Craig Scheirer at Cloister Cabinetry.'
 		];
 		</script>
 		<script src="js/quote.js" charset="utf-8"></script>

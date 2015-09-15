@@ -11,11 +11,6 @@
 			<div class="row">
 				<div class="col-md-3">
 					<h1 class="no-margin-top text-center border-bottom text-green">What You'll Get</h1>
-					<!-- <p>
-						With over 15 years of experience and a real focus on customer satisfaction, you can rely on Lancaster
-						Home Builders for your next project. We provide a range of sevices from professional construction to design and renovation.
-					</p> -->
-					<br class="hidden-lg hidden-md">
 					<div class="hidden-sm">
 						<p><i class="fa fa-check"></i> Superior Quality and Craftsmanship</p>
 						<p><i class="fa fa-check"></i> Highest Standards to the Projects We Deliver</p>
@@ -72,8 +67,8 @@
 						<div class="col-sm-8 col-xs-12">
 							<h2 class="hidden-xs text-underline no-margin-top text-green text-center">New Home Construction</h2>
 							<p>
-								The Lancaster Home Builders team works with our clients from
-								assisting in the design of the home to ensure a positive floor plan to helping with the
+								The Lancaster Home Builders team works with our clients by
+								assisting in the design of the home, ensuring a positive floor plan, and helping with the
 								selection of the interior design and colors. This process starts with listening to YOU and
 								the needs and desires you have for your new home. We are here to help you
 								understand what you’re building and then pull in our valued tradesmen to make it
@@ -81,7 +76,7 @@
 							</p>
 							<p>
 								Our variety of floor plans is an ideal starting point for you to design your new home.
-								Follow them exactly or throw in your own little twist to make it your own. Every plan
+								Follow them exactly, or throw in your own little twist to make it your own. Every plan
 								offers space to gather, entertain, store, organize and relax. If you already have a floor
 								plan in mind, we can accommodate that too.
 							</p>
@@ -105,7 +100,7 @@
 								<h3 class="no-margin-top hidden-xs text-green">Excavating</h3>
 								<p>
 									Expanding on our General Contractor’s expertise, we also have our own excavating
-									division, Nadu Excavating. With this in-house division we can get your house started in a timely
+									division, Nadu Excavating. With this in-house division, we can get your house started in a timely
 									manner and meet the specific objectives of the job at hand including site preparation, grading,
 									trenching and many other soil-related tasks.
 								</p>
@@ -122,7 +117,7 @@
 							<div class="col-sm-8 col-xs-12 text-center">
 								<h3 class="no-margin-top hidden-xs text-green">M&J Plumbing</h3>
 								<p>
-									Another extension of Lancaster Home Builders is our plumbing division M
+									Another extension of Lancaster Home Builders is our plumbing division, M
 									& J Plumbing. Our in-house plumbing experts help keep the building process moving forward
 									quickly and efficiently by following building regulations and safety standards per building code.
 								</p>
@@ -139,10 +134,10 @@
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="js/nav.js" charset="utf-8"></script>
 		<script type="text/javascript">
-		var quotes = [
-			'The craftsmen were very good, respectful and pleasant. We were kept up to date on the progress and our questions and concerns were addressed.',
-			'As the build progressed, we were able to add additional items into our design that we realized made more sense as the project began to take shape.'
-		];
+			var quotes = [
+				'The craftsmen were very good, respectful and pleasant. We were kept up to date on the progress, and our questions and concerns were addressed.',
+				'As the build progressed, we were able to add additional items into our design that we realized made more sense as the project began to take shape.'
+			];
 		</script>
 		<script src="js/quote.js" charset="utf-8"></script>
     </body>

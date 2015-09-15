@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>LHB |  - Construction Renovation Template</title>
+		<title>Admin | Lancaster Home Builders PA Home construction</title>
 		<?php include 'stubs/head.php'; ?>
 	</head>
 	<body>

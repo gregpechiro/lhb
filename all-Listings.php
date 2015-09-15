@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>LHB |  - Real Estate Listings</title>
+		<title>Admin | Lancaster Home Builders Real Estate Listings</title>
 		<?php include 'stubs/head.php'; ?>
 		<link rel="stylesheet" href="style/data-table-bootstrap.css">
 	</head>

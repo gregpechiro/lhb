@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>LHB |  - Construction Renovation Template</title>
+		<title>Listings |  Lancaster Home Builders PA Home Construction</title>
 		<?php include 'stubs/head.php'; ?>
 		<link rel="stylesheet" href="style/data-table-bootstrap.css">
 		<style>input.uploader{position:absolute;left:-9999px;}label.uploader{cursor:pointer;}</style>

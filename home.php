@@ -62,8 +62,8 @@
 								</div>
 								<div class="caption-body hidden-xs">
 			    					<p class="">
-										2760 Charlestown Rd. Lancaster, PA 17603 <br>
-										Building for your future!
+										Building for your future!<br>
+										2760 Charlestown Rd. Lancaster, PA 17603
 									</p>
 								</div>
 							</div>

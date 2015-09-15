@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Home | Lancaster Home Builders PA Home Construction</title>
+		<title>Floor Plans | Lancaster Home Builders PA Home Construction</title>
 		<?php include 'stubs/head.php'; ?>
 	</head>
 	<body class="">

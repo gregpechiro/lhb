@@ -77,6 +77,7 @@
                         		<th>Address</th>
                         		<th>MLS #</th>
                         		<th>Agent</th>
+								<th>Phone</th>
                     		</tr>
                     	</thead>
                     	<tbody>
@@ -88,6 +89,7 @@
 											<td>' . $listing["street"] . ' ' . $listing["city"] . ', ' . $listing["state"] . ' ' . $listing["zip"] . '</td>
             			            		<td>' . $listing["mls"] . '</td>
                                     		<td>' . $listing["agent"] . '</td>
+											<td>' . $listing["phone"] . '</td>
                                 		</tr>';
             		        		}
             		    		}

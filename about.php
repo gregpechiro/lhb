@@ -23,12 +23,17 @@
 			        </a>
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-12">
-					<h2 class="text-center text-green text-underline no-margin-top">New Home Construction</h2>
+					<h2 class="text-center text-green text-underline no-margin-top">Why Choose Us</h2>
 					<p class="text-center">
-						The Lancaster Home Builders team works with our clients from assisting in the design of the home to
-						ensure a positive floor plan to helping with the selection of the interior design and colors.  This process
-						starts with listening to YOU and the needs and desires you have for your new home. We are here to help
-						you understand what you’re building and then pull in our valued tradesmen to make it happen.
+						With over 30 years of experience and a real focus on customer satisfaction, you can rely on
+						Lancaster Home Builders to build your new home. Our goal is to provide you with professional
+						construction and customer satisfaction as we help you through each step in the building
+						process.
+					</p>
+					<p class="text-center">
+						We are a full-service builder from designing the home to the final cleaning before settlement.
+						Once you’ve chosen how you would like your home to look we bring in the best subcontractors
+						in the industry to make it happen.
 					</p>
 					<h3 class="text-green text-center">Background:</h3>
 					<p class="text-center">

@@ -3,6 +3,7 @@
 	<head>
 		<title>LHB |  - Real Estate Listings</title>
 		<?php include 'stubs/head.php'; ?>
+		<link rel="stylesheet" href="style/data-table-bootstrap.css">
 	</head>
 	<body>
 		<?php
@@ -78,6 +79,12 @@
 												<input type="text" class="form-control" name="agent" id="agent" value="' . $lst["agent"] . '">
 											</div>
 										</div>
+										<div class="form-group">
+											<label class="control-label col-xs-3">Phone:</label>
+											<div class="col-xs-9">
+												<input type="text" class="form-control" name="phone" id="phone" value="' . $lst["phone"] . '">
+											</div>
+										</div>
 										<input type="hidden" name="id" id="id" value="' . $lst["id"] . '">
 										<div class="form-group">
 											<div class="col-xs-12">
@@ -127,6 +134,12 @@
 												<input type="text" class="form-control" name="agent" id="agent">
 											</div>
 										</div>
+										<div class="form-group">
+											<label class="control-label col-xs-3">Phone:</label>
+											<div class="col-xs-9">
+												<input type="text" class="form-control" name="phone" id="phone">
+											</div>
+										</div>
 										<button class="btn btn-dark btn-block">Save</button>
 									</form>';
 							}
@@ -135,15 +148,15 @@
 					</div>
 				</div>
                 <div class="col-md-8">
-                    <div style="border:1px solid #532d3a" class="panel">
-                        <div style="background-color:#532d3a; color:white;" class="panel-heading">All Listings</div>
-                        <div class="table-responsive">
-                            <table class="table table-striped table-bordered" style="background: white;">
+                    <!-- <div style="border:1px solid #532d3a" class="panel">
+                        <div style="background-color:#532d3a; color:white;" class="panel-heading">All Listings</div> -->
+                            <table id="adminListings" class="table table-striped table-bordered" style="background-color: white">
                                 <thead>
                                     <tr>
                                         <th>Address</th>
                                         <th>MLS #</th>
                                         <th>Agent</th>
+										<th>Phone</th>
                                         <th></th>
                                     </tr>
                                 </thead>
@@ -156,6 +169,7 @@
             							            <td>' . $listing["street"] . ' ' . $listing["city"] . ', ' . $listing["state"] . ' ' . $listing["zip"] . '</td>
             							            <td>' . $listing["mls"] . '</td>
                                                     <td>' . $listing["agent"] . '</td>
+													<td>' . $listing["phone"] . '</td>
                                                     <td><a href="all-Listings.php?id=' . $listing["id"] . '" class="btn btn-dark btn-sm">Edit</a></td>
                                                 </tr>';
             						        }
@@ -163,8 +177,7 @@
             					    ?>
                                 </tbody>
                             </table>
-                        </div>
-                    </div>
+                    <!-- </div> -->
                 </div>
 			</div>
 		</div>
@@ -174,7 +187,16 @@
 		<script src="//code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.1/isotope.pkgd.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.7/js/jquery.dataTables.min.js"></script>
+		<script src="js/data-table-bootstrap.js"></script>
 		<script src="js/nav.js" charset="utf-8"></script>
 		<script src="js/login.js" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#adminListings').DataTable({
+					lengthMenu:[5,10,20]
+				});
+			});
+		</script>
     </body>
 </html>

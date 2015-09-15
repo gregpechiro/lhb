@@ -17,8 +17,8 @@ if ($conn->connect_error) {
 
 $updateQuery = "UPDATE listings SET street='" . $_POST["street"] . "', city='" .
     $_POST["city"] . "', state='" . $_POST["state"] . "', zip='" . $_POST["zip"] .
-    "', mls='" . $_POST["mls"] . "', agent='" . $_POST["agent"] . "' WHERE id='" .
-    $_POST["id"] . "'";
+    "', mls='" . $_POST["mls"] . "', agent='" . $_POST["agent"] . "', phone='" .
+    $_POST["phone"] . "' WHERE id='" . $_POST["id"] . "'";
 
 if ($conn->query($updateQuery) === TRUE) {
     $conn->close();

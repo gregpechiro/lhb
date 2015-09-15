@@ -15,8 +15,8 @@ if ($conn->connect_error) {
     die("connection failed: " . $conn->connect_error);
 }
 
-$sql = $conn->prepare("INSERT INTO listings (street, city, state, zip, mls, agent) VALUES (?, ?, ?, ?, ?, ?)");
-$sql->bind_param("ssssss", $street, $city, $state, $zip, $mls, $agent);
+$sql = $conn->prepare("INSERT INTO listings (street, city, state, zip, mls, agent, phone) VALUES (?, ?, ?, ?, ?, ?, ?)");
+$sql->bind_param("sssssss", $street, $city, $state, $zip, $mls, $agent, $phone);
 
 $street = $_POST["street"];
 $city = $_POST["city"];
@@ -24,6 +24,7 @@ $state = $_POST["state"];
 $zip = $_POST["zip"];
 $mls = $_POST["mls"];
 $agent = $_POST["agent"];
+$phone = $_POST["phone"];
 
 if ($sql->execute() === TRUE) {
     $conn->close();

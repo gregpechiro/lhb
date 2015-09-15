@@ -126,3 +126,8 @@ body {
 a {
     color: #087c4c;
 }
+li.paginate_button.active > a {
+    border-color: rgba(50, 50, 50, 0.5);
+    background-color: #6d4253;
+    color: #ffffff;
+}

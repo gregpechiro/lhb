@@ -35,7 +35,7 @@ if ($slide == null) {
     $updateQuery = "UPDATE slide SET title='" . $_POST["title"] . "', body='" . $_POST["body"] . "' WHERE id=1";
 
     if ($conn->query($updateQuery) === TRUE) {
-        header('Location: admin.php');
+        header('Location: webmaster.php');
     } else {
         echo "ERROR";
     }
